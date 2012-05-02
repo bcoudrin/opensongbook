@@ -16,6 +16,7 @@
 #
 
 SONGBOOKS := $(wildcard *.sb)
+#SONGBOOKS := shiverbook
 TARGETS = $(SONGBOOKS:%.sb=%)
 
 PDF = $(TARGETS:%=%.pdf)
@@ -45,7 +46,8 @@ LATEX=pdflatex $(LATEX_OPTIONS)
 ############################################################
 ### Targets
 
-default: songbook.pdf
+#default: songbook.pdf
+#default: shiverbook.pdf
 
 all: $(PDF)
 
