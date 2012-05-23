@@ -9,5 +9,5 @@
 %%  To Public License, Version 2, as published by Sam Hocevar. See
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
-s2. <5 6>4 s2 s2 <6->4 <7>4 s2 s2. s2 <5>4 s2 <6>4 s2.
+s2. <5 6>4 s2 s2 <6->4 <7>4 s2 s2. s2 <5>4 s2 <6>4 <_+>2.
 s2. <5 6>4 s2 s2 <6->4 <7>4 s2 s2. s2 <5>4 s4 <4 6>4 <3+ 5>4 s2.

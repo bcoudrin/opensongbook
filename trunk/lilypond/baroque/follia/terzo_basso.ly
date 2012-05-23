@@ -23,7 +23,7 @@
   d4 d4 d4
   c4 c4 c4
   f4 f,4 f4
-  c'4 d4 cis4
+  c'4 c4 cis4
   d8[ g] a4 a,4
   d2.
 }

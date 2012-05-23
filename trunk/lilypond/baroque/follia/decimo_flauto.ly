@@ -12,22 +12,22 @@
 \relative c'' {
   \mark \markup "10"
   \tempo "Largo"
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
+  r8  a'4 f d8~
+  d cis4 a' e8~
+  e d4 a f'8~
+  f e4 g, g'8~
+  g f4 c a'8~
+  a g4 e g8~
+  g f4 d bes'8~
+  bes a4 e a,8~
+  a a'4 d, f8~
+  f e4 cis g'8~
+  g f4 a, f'8~
+  f e4 g, g'8~
+  g f4 c a'8~
+  a g4 e g8~
+  g f4 d cis8
+  d2.
   
   \bar "||"
   \break

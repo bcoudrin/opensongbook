@@ -18,16 +18,16 @@
   e8[ c16 c] g8[ e'16 e] g8[ e16 e]
   f8[ c16 c] a8[ c16 c] f8[ c16 f]
   e8[ g16 g] c8[ g16 g] e8[ a16 g] 
-  f8[ a16 a] d8[ bes16 a] g8[ e'16 d]
+  f8[ a,16 a] d8[ bes16 a] g8[ e'16 d]
   cis8[ e16 e] a8[ e16 e] cis8[ a'16 g]
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
+  f8[a,16 a] d8[a16 a] f8[d'16 d]
+  cis8[e16 e] a8[e16 e] cis8[a'16 g]
+  f8[a,16 a] d8[a16 a] f8[d'16 d]
+  e8[g16 g] c8[g16 g] e8[c'16 bes]
+  a8[c,16 c] f8[c16 c] a8[f'16 f]
+  e8[g16 g] c8[g16 g] e8[a16 g]
+  f8[a16 a] d8[f,16 f] e8[d'16 cis]
+  d2.
   
   \bar "||"
   \break

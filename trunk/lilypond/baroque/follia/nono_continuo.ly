@@ -10,5 +10,19 @@
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
 \time 3/4
-s2. s2. s2. s2. s2. s2. s2. s2. 
-s2. s2. s2. s2. s2. s2. s2. s2.
+s2.
+<_+>2.
+s2.
+s2.
+s2.
+s2 <6>4
+s2. 
+s2. 
+s2.
+s2.
+s2.
+s2.
+s2.
+s2.
+s4. <5 7>8 <4>8. <3+>16
+s2.

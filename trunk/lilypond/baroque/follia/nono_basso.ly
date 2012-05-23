@@ -11,20 +11,20 @@
 
 \time 3/4
 \relative c {
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
+  d4 f d
+  a' cis, a
+  d f d
+  c e c
+  f a f
+  c' e, cis
+  d bes4. g8
+  a4 cis a
+  d f d
+  a' cis, a
+  d f d
+  c e c
+  f a f
+  c' e, cis
+  d8[ e f g] a8.[a,16]
+  d2.
 }
