@@ -11,7 +11,7 @@
 
 \relative c'' {
   \mark \markup "5"
-  r16 d16[ cis d] a16[ d c d] a16[ d c d]
+  r16 d16[ cis d] a16[ d cis d] a16[ d cis d]
   e16[ e d e] a,16[ e' d e] g,16[ e' d e]
   f,16[ f' e f] f,16[ f' e f] f,16[ f' e f]
   g,16[ g' f g] g,16[ g' f g] g,16[ g' f g]

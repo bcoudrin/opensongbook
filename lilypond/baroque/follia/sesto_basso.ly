@@ -25,5 +25,5 @@
   a4 r2
   c4 g8[ bes a g]
   f4 g4 a4
-  d2. 
+  d,2. 
 }

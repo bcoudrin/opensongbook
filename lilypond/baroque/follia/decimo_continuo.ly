@@ -8,6 +8,21 @@
 %%  and/or modify it under the terms of the Do What The Fuck You Want
 %%  To Public License, Version 2, as published by Sam Hocevar. See
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
-
-s2. s2. s2. s2. s2. s2. s2. s2. 
-s2. s2. s2. s2. s2. s2. s2. s2.
+\bassFigureExtendersOn
+s2 s8 <5 7>8
+<4>8 <3+>8 s2
+<9>8 <8>8 s2 
+<4>8 <3>8 s2 
+<9>8 <8>8 s2
+<4 6>8 <3 5>8 s4 <6+>8 <5>8
+<4>8 <3>8 s2
+<_+ 9>8 <_+ 8>8 s2
+s2.
+<4 6>8 <3+ 5>8 s4 <5>8 <7>8
+<4>8 <3>8 s2
+<4>8 <3>8 s2
+<9>8 <8>8 s2
+<4 6>8 <3 5>8 s4 <6+>8 <5>8
+\bassFigureExtendersOff
+<4>8 <3>8 <7>8 <5 7>8 <4>8 <3+>8
+s2.
