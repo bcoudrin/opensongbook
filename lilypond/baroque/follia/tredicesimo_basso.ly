@@ -1,4 +1,4 @@
-%%  undicesimo_continuo.ly
+%%  undicesimo_basso.ly
 %%  Copyright (c) 2011 Benjamin Coudrin <benjamin.coudrin@gmail.com>
 %%                All Rights Reserved
 %%
@@ -9,20 +9,21 @@
 %%  To Public License, Version 2, as published by Sam Hocevar. See
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
-\time 9/8
-r4. r4. r4.
-r4. <6>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. <6>4.
-r4. r4. <6>4.
-r4. r4. r4.
-r4. <6>4. r4.
-r4. <6>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. <6>4.
-r4. r4. r4.
-r4. r4. r4.
+\relative c {
+  d'8[d,] r d f16[e f g]
+  a8[a,] r a cis16[b cis a]
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+}

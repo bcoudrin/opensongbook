@@ -1,4 +1,4 @@
-%%  dodicesimo_flauto.ly
+%%  undicesimo_flauto.ly
 %%  Copyright (c) 2011 Benjamin Coudrin <benjamin.coudrin@gmail.com>
 %%                All Rights Reserved
 %%
@@ -9,25 +9,24 @@
 %%  To Public License, Version 2, as published by Sam Hocevar. See
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
-\time 3/4
 \relative c'' {
-  \mark \markup "12"
-  r2.
-  r16 a'[g a] a,[a' b, a'] cis,[a' a, a']
-  d,8[e] f[g] a[f]
-  g16[c bes c] c,[c' d, c'] e,[c' c, c']
-  f,8[g] a[bes] c[a]
-  g16[c bes c] c,[c' d, c'] e,[a e a]
-  d,8[e] f[e] d[d]
-  cis16[a' g a] a,[a' b, a'] cis,[a' a, a']
-  f8[e] f[g] a[f]
-  e16[a g a] a,[a' b, a'] cis,[a' a, a']
-  d,8[e] f[g] a[f]
-  g16[c bes c] c,[c' d, c'] e,[c' c, c']
-  f,8[g] a[bes] c[a]
-  g16[c bes c] c,[c' d, c'] e,[a e a]
-  f8[e] d[e] f[e]
-  d2. 
+  \mark \markup "13"
+  a'8[f] d16[e f g] a8[d,]
+  cis[e] a,16[bes cis d] e8[a]
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
   
   \bar "||"
   \break

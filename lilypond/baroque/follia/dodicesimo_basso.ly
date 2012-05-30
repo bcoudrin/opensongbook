@@ -11,20 +11,24 @@
 
 \time 3/4
 \relative c {
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2. 
+  r16 d'[cis d] d,[d' e, d'] f,[d' d, d']
+  cis,8[e] a[g] a[g]
+  f16[d' cis d] d,[d' e, d'] f,[d' d, d']
+  e,8[g] c[bes] c[bes]
+  \clef tenor
+  a16[f' e f] f,[f' g, f'] a,[f' f, f']
+  \clef bass
+  e,8[g] c[bes] a[g]
+  f16[d' cis d] f,[d' cis d] bes,[bes' a g]
+  a,8[e'] a[g] a[g]
+  f16[d' cis d] d,[d' e, d'] f,[d' d, d']
+  cis,8[e] a[g] a[g]
+  f16[d' cis d] d,[d' e, d'] f,[d' d, d']
+  e,8[g] c[bes] c[bes]
+  \clef tenor
+  a16[f' e f] f,[f' g, f'] a,[f' f, f']
+  \clef bass
+  e,8[g] c[bes] a[g]
+  f16[d' cis d] g,[d' cis d] a[d cis d]
+  d,2. 
 }
