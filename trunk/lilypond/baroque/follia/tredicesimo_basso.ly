@@ -12,18 +12,18 @@
 \relative c {
   d'8[d,] r d f16[e f g]
   a8[a,] r a cis16[b cis a]
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
+  d8[d,] r d' f16[e d f]
+  e8[e,] r c' e16[d e c]
+  f8[f,] r f' a16[g a f]
+  c'8[c,] r c e16[d cis a]
+  d8[d,] r d'' bes16[a bes g]
+  a8[a,] r a cis16[b cis a]
+  d8[d,] r d' f16[e f g]
+  a8[a,] r a cis16[b cis a]
+  d8[d,] r d' f16[e d f]
+  e8[e,] r c' e16[d e c]
+  f8[f,] r f' a16[g a f]
+  c'8[c,] r c e16[d cis a]
+  d8[d' bes g] a[a,]
+  d2.
 }
