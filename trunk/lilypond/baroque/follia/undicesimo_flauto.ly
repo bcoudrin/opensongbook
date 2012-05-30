@@ -12,22 +12,22 @@
 \time 9/8
 \relative c'' {
   \mark \markup "11"
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
-  r4. r4. r4.
+  d'8[a f] d[f a] d[f, d]
+  a'[e cis] a[cis e] a[e cis]
+  d'[a f] d[f a] d[f, d]
+  c'[g e] c[e g] c[e, c]
+  f[c a] f[a c] f[a,f]
+  c''[g e] c[e g] a[e cis]
+  d'[a f] e[f a] d[bes, g]
+  a'[e cis] a[cis e] a[cis, a]
+  d'[a f] d[f a] d[f, d]
+  a'[e cis] a[cis e] a[e cis]
+  d'[a f] d[f a] d[f, d]
+  c'[g e] c[e g] c[e, c]
+  f[c a] f[a c] f[a, f]
+  c''[g e] c[e g] a[e cis]
+  d'[f, d] bes'[g d] a[d cis]
+  d2.~ d4.
   
   \bar "||"
   \break

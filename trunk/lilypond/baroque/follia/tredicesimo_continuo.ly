@@ -9,20 +9,19 @@
 %%  To Public License, Version 2, as published by Sam Hocevar. See
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
-\time 9/8
-r4. r4. r4.
-r4. <6>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. <6>4.
-r4. r4. <6>4.
-r4. r4. r4.
-r4. <6>4. r4.
-r4. <6>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. r4.
-r4. <6>4. r4.
-r4. <6!>4. <6>4.
-r4. r4. r4.
-r4. r4. r4.
+  r4 r4 r4
+  <_+>4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4
+  r4 r4 r4

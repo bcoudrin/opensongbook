@@ -48,7 +48,8 @@
 	  \include "nono_flauto.ly"
 	  \include "decimo_flauto.ly"
 	  \include "undicesimo_flauto.ly"
-	  %\include "dodicesimo_flauto.ly"
+	  \include "dodicesimo_flauto.ly"
+       	  \include "tredicesimo_flauto.ly"
 	}
 	
 	\new FiguredBass \figuremode {
@@ -68,7 +69,8 @@
 	  \include "nono_continuo.ly"
 	  \include "decimo_continuo.ly"
 	  \include "undicesimo_continuo.ly"
-	  %\include "dodicesimo_continuo.ly"
+	  \include "dodicesimo_continuo.ly"
+	  \include "tredicesimo_continuo.ly"
 	}
 	
 	\new Staff = bassStaff {
@@ -84,7 +86,8 @@
 	  \include "nono_basso.ly"
 	  \include "decimo_basso.ly"
 	  \include "undicesimo_basso.ly"
-	  %\include "dodicesimo_basso.ly"
+	  \include "dodicesimo_basso.ly"
+	  \include "tredicesimo_basso.ly"
 	}
       >>
     }
