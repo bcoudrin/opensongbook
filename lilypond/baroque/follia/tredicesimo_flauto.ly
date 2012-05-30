@@ -13,20 +13,20 @@
   \mark \markup "13"
   a'8[f] d16[e f g] a8[d,]
   cis[e] a,16[bes cis d] e8[a]
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
+  f[a] d,16[e f g] a8[b]
+  c[g] c,16[d e f] g8[c]
+  a[f] f,16[g a bes] c8[f]
+  e[g] c,16[d e f] g8[a]
+  f[a] d,16[e f d] g8[d]
+  cis[e] a,16[b cis d] e8[a]
+  f[a] d,16[e f g] a8[d,]
+  cis[e] a,16[b cis d] e8[a]
+  f[a] d,16[e f g] a8[b]
+  c[g] c,16[d e f] g8[c]
+  a[f] f,16[g a bes] c8[f]
+  e[g] c,16[d e f] g8[a]
+  f[a] d,16[e f g] cis,8[e]
+  d2.
   
   \bar "||"
   \break

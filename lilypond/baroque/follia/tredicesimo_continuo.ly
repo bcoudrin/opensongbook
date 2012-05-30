@@ -11,17 +11,17 @@
 
   r4 r4 r4
   <_+>4 r4 r4
+  r4 r4 r8 <6!>8
+  <6!>4 r4 r4
   r4 r4 r4
+  r4 r4 r8 <6>8
+  r4 r4 <6>4
+  <_+>4 r4 r4
   r4 r4 r4
+  <_+>4 r4 r4
+  r4 r4 r8 <6!>8
+  <6!>4 r4 r4
   r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
-  r4 r4 r4
+  r4 r4 r8 <6>8
+  r4 <6>4 <_+>4
   r4 r4 r4
