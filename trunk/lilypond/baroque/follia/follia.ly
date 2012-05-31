@@ -106,4 +106,41 @@
       >>
     }
   }
+  
+  \score {
+	\new ChoirStaff
+	{
+	  <<
+	\new Staff \with {
+	  fontSize = #-3
+	  \override StaffSymbol #'staff-space = #(magstep -3)
+	  \override VerticalAxisGroup #'staff-staff-spacing #'basic-distance = #10
+	}
+	{
+	  \set Staff.instrumentName = "Flauto"
+	  \include "primo_flauto.ly"
+	}
+
+	\new FiguredBass \figuremode {
+	  \set figuredBassAlterationDirection = #LEFT
+	  \set figuredBassPlusDirection = #LEFT
+	  \override VerticalAxisGroup #'minimum-Y-extent = #'()
+	  \override VerticalAxisGroup #'staff-staff-spacing #'basic-distance = #10
+	  \override BassFigureAlignment #'stacking-dir = #UP
+	  \override FiguredBass.BassFigure #'font-size = #-6
+	  \include "primo_continuo.ly"
+	}
+	
+	\new Staff \with {
+	  fontSize = #-3
+	  \override StaffSymbol #'staff-space = #(magstep -3)
+	}
+	{
+	  \set Staff.instrumentName = "Basso"
+	  \include "primo_basso.ly"
+	}
+	  >>
+	  }
+	}
+  }
 }
