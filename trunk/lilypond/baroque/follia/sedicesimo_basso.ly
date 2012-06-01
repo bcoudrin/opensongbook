@@ -10,20 +10,20 @@
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
 \relative c {
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  d4 f g
+  a a g
+  f f g
+  c, c' bes
+  a a bes
+  c c, cis
+  d bes g
+  a a' cis,
+  d f g
+  a a g
+  f f g
+  c, c' bes
+  a a bes
+  c c, cis
+  d8[d' bes g] a[a,]
+  d2.
 }
