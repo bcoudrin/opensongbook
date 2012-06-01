@@ -11,22 +11,22 @@
 
 \relative c'' {
   \mark \markup "16"
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  r8 a' d, f4 e16[d]
+  cis8[e] a, cis4 b16[a]
+  d8[a'] d, f4 e16[d]
+  e8[g] bes, e!4 d16[c]
+  f8[c'] f, a4 g16[f]
+  e8[g] c, a'4 g16[a]
+  f8[a] d, f4 e16[d]
+  cis8[e] a, g'4 f16[e]
+  f8[a] d, f4 e16[d]
+  cis8[e] a, cis4 b16[a]
+  d8[a'] d, f4 e16[d]
+  e8[g] bes, e!4 d16[cis]
+  f8[c'] f, a4 g16[f]
+  e8[g] c, a'4 g16[a]
+  f8[a] d, e4 d16[cis]
+  d2.
   \bar "||"
   \break
 }

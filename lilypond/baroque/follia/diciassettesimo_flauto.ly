@@ -15,14 +15,14 @@
 \relative c'' {
   \mark \markup "17"
   r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  a8[cis e] g8[a16 g f e]
+  f4. r4.
+  c8[e g] bes8[c16 bes a g]
+  a4. r4.
+  c,8[e g] c,8[a'16 g f e]
+  f4 e8 d8.[f16 e d]
+  cis8[a' e] cis[e g,]
+  f4. r4.
   r2.
   r2.
   r2.
