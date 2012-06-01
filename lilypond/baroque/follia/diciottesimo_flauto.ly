@@ -14,22 +14,22 @@
 \key d \minor
 \relative c'' {
   \mark \markup "18"
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  r16 a'16[g a] d,[a' e a] f[a d, bes']
+  cis,[e d e] cis[e b e] a,[e' g, e']
+  f,[f' e f] d[f c f] bes,[f' a, f']
+  g,[g' f g] e[g d g] c,[g' bes, g']
+  a,[f' e f] d[f c f] bes,[f' a, f']
+  g,[e' d e] cis[e b e] a,[e' g, e']
+  f,[f' e fis] g[bes f! bes] e,[bes' d, bes']
+  cis,[e d e] cis[e d e] a,[e' g, e']
+  f,[a' g a] d,[a' e a] f[a d, bes']
+  cis,[e d e] cis[e bes e] a,[e' g, e']
+  f,[f' e f] d[f c f] bes,[f' a, f']
+  g,[g' f g] e[g d g] c,[g' bes g]
+  a,[f' e f] d[f c f] bes,[f' a, f']
+  g,[e' d e] cis[e b e] a,[e' g, e']
+  f,[a' g a] d,[a' e a] f[a e a]
+  d,2.
   \bar "|."
   \break
 }

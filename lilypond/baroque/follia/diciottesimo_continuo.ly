@@ -10,19 +10,19 @@
 %%  http://sam.zoy.org/wtfpl/COPYING for more details.
 
   r2.
+  <_+>2.
   r2.
   r2.
   r2.
+  r4 <_+>2
+  r2 <6>4 <3>4
+  <_+>2.
+  r2.
+  <_+>2.
   r2.
   r2.
   r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  r4 <_+>2
+  r2 <4 6>4 <3+ 5>4
   r2.
   
