@@ -22,11 +22,11 @@
   d8[f a] d[bes16 a g bes]
   a4. r4.
   d,8[f a] d[f16 e d e]
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  cis4. r4.
+  d,8[f a] d[c!16 bes a f]
+  e4. r4.
+  f8[a c] f[f,16 g a bes]
+  c4. cis,4.
+  d8[f a] d[g, a]
+  d,4. r4.
 }
