@@ -13,20 +13,20 @@
 \clef bass
 \key d \minor
 \relative c {
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  d8[e] f[e] f[g]
+  a[bes] a[g] f[e]
+  d[c] bes[a] g[f]
+  c'[d] c[bes] a[g]
+  f'[g16 a] bes8[a] g[f]
+  c'[bes] a[g] f[e]
+  d[c] bes[a] g[bes]
+  a[bes] a[g] f[e]
+  d'[e] f[e] d[g]
+  a[bes] a[g] f[e]
+  d[c] bes[a] g[f]
+  c'[d] c[bes] a[g]
+  f'[g16 a] bes8[a] g[f]
+  c'[bes] a[g] f[e]
+  d[e] f[g] a[a,]
+  d2.
 }
