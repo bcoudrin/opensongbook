@@ -23,13 +23,13 @@
   f4 e8 d8.[f16 e d]
   cis8[a' e] cis[e g,]
   f4. r4.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
-  r2.
+  a8[cis e] g[a16 g f e]
+  f4. r4.
+  c8[e g] bes[c16 bes a g]
+  a4. r4.
+  c,8[e g] c,[a'16 g f e]
+  f8[a16 g f e] f8[g e]
+  d4. r4.
   \bar "||"
   \break
 }
