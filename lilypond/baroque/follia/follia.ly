@@ -13,12 +13,19 @@
 
 \paper {
   #(set-paper-size "a4")
-  between-system-space = 1\cm
-  between-system-padding = #0
+  %between-system-space = 1.5\cm
+  %between-system-padding = #1
 }
 
+%%\layout {
+  %%#(layout-set-staff-size 18)
+%%}
+
 \layout {
-  #(layout-set-staff-size 16)
+  \context {
+    \Score
+    \remove "Bar_number_engraver"
+  }
 }
 
 \book {
@@ -32,13 +39,12 @@
     tagline = "Copyright : © 2011 Benjamin Coudrin. Copyleft : released under WTFPL License"
   }
   
+  #(set-global-staff-size 13)
+  
   \score {
     \new ChoirStaff {
       <<
-        \new Staff  \with {
-          \override StaffSymbol #'staff-space = #(magstep -2)
-        }
-        {
+        \new Staff {
           \set Staff.instrumentName = "Flauto"
           \include "primo_flauto.ly"
           \include "secondo_flauto.ly"
@@ -65,7 +71,7 @@
           \set figuredBassPlusDirection = #LEFT
           \override VerticalAxisGroup #'minimum-Y-extent = #'()
           \override BassFigureAlignment #'stacking-dir = #UP
-          \override FiguredBass.BassFigure #'font-size = #-3
+          \override FiguredBass.BassFigure #'font-size = #-2
           \include "primo_continuo.ly"
           \include "secondo_continuo.ly"
           \include "terzo_continuo.ly"
@@ -86,10 +92,7 @@
           \include "diciottesimo_continuo.ly"
         }
         
-        \new Staff = bassStaff \with {
-          \override StaffSymbol #'staff-space = #(magstep -2)
-        }
-        {
+        \new Staff = bassStaff {
           \set Staff.instrumentName = "Basso"
           \include "primo_basso.ly"
           \include "secondo_basso.ly"

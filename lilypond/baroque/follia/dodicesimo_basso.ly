@@ -15,7 +15,8 @@
   cis,8[e] a[g] a[g]
   f16[d' cis d] d,[d' e, d'] f,[d' d, d']
   e,8[g] c[bes] c[bes]
-  \clef tenor
+%  \clef tenor
+  \clef alto
   a16[f' e f] f,[f' g, f'] a,[f' f, f']
   \clef bass
   e,8[g] c[bes] a[g]
@@ -25,7 +26,8 @@
   cis,8[e] a[g] a[g]
   f16[d' cis d] d,[d' e, d'] f,[d' d, d']
   e,8[g] c[bes] c[bes]
-  \clef tenor
+%  \clef tenor
+  \clef alto
   a16[f' e f] f,[f' g, f'] a,[f' f, f']
   \clef bass
   e,8[g] c[bes] a[g]
