@@ -14,7 +14,8 @@
   r8 e8 a8[ e cis a]
   r8 a'8 d8[ a f d]
   r8 g8 c8[ g e c]
-  \clef tenor
+%  \clef tenor
+  \clef alto
   r8 c'8 f8[ c a f]
   \clef bass
   r8 g8 c8[ g e cis]
@@ -24,7 +25,8 @@
   r8 e8 a8[ e cis a]
   r8 a'8 d8[ a f d]
   r8 g8 c8[ g e c]
-  \clef tenor
+%  \clef tenor
+  \clef alto
   r8 c'8 f8[ c a f]
   \clef bass
   r8 g8 c8[ g e cis]

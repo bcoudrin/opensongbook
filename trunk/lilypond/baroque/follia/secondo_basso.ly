@@ -12,7 +12,8 @@
 \relative c {
   d8[ cis] d8[ e] f8[ d]
   a'8[ g] a8[ b] cis8[ a8]
-  \clef tenor
+%  \clef tenor
+  \clef alto
   d8[ cis] d8[ e] f8[ d]
   e8[ d] e8[ c] d8[ e]
   \clef bass
@@ -22,7 +23,8 @@
   a8[ e'] a8[ e] cis8[ a]
   d8[ cis] d8[ e] f8[ d]
   a'8[ g] a8[ b] cis8[ a8]
-  \clef tenor
+%  \clef tenor
+  \clef alto
   d8[ cis] d8[ e] f8[ d]
   e8[ d] e8[ c] d8[ e]
   \clef bass
