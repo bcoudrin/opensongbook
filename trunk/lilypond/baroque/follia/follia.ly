@@ -13,8 +13,9 @@
 
 \paper {
   #(set-paper-size "a4")
-  %between-system-space = 1.5\cm
-  %between-system-padding = #1
+  %%between-system-space = 0\cm
+  %%between-system-padding = #0
+  %%blank-last-page-force = #0
 }
 
 %%\layout {
@@ -32,16 +33,22 @@
   \header {
     title = "Follia"
     subtitle = \markup \center-column { "dalla Sonata XII in re minore" \small \italic "per flauto e basso continuo" }
+	%%subtitle = \markup \center-column { \small "dalla Sonata XII in re minore per flauto e basso continuo" }
     %%instrument = \markup \bold  
-    subsubtitle = "opera seconda"
+    %%subsubtitle = "opera seconda"
     %%poet = \markup \left-column {"edited and published by" "Benjamin Coudrin"}
     composer =  \markup \right-column { "Paolo Benedetto Bellinzani" \small "(1690-1757)" }
-    tagline = "Copyright : © 2011 Benjamin Coudrin. Copyleft : released under WTFPL License"
+    %%tagline = "Copyright : © 2012 Benjamin Coudrin. Copyleft : released under cc-by-3.0 License"
+	tagline = ""
+	copyright = \markup { "Copyright : " \char ##x00A9 " 2012 Benjamin Coudrin. Copyleft : released under cc-by-3.0 License" }
   }
   
-  #(set-global-staff-size 13)
+  #(set-global-staff-size 17)
   
   \score {
+    altClef = tenor
+	altClef = alto
+  
     \new ChoirStaff {
       <<
         \new Staff {
@@ -117,39 +124,39 @@
     }
   }
   
-  \score {
-    \new ChoirStaff
-    {
-      <<
-        \new Staff \with {
-          fontSize = #-3
-          \override StaffSymbol #'staff-space = #(magstep -3)
-          \override VerticalAxisGroup #'staff-staff-spacing #'basic-distance = #10
-        }
-        {
-          \set Staff.instrumentName = "Flauto"
-          \include "primo_flauto.ly"
-        }
-        
-        \new FiguredBass \figuremode {
-          \set figuredBassAlterationDirection = #LEFT
-          \set figuredBassPlusDirection = #LEFT
-          \override VerticalAxisGroup #'minimum-Y-extent = #'()
-          \override VerticalAxisGroup #'staff-staff-spacing #'basic-distance = #10
-          \override BassFigureAlignment #'stacking-dir = #UP
-          \override FiguredBass.BassFigure #'font-size = #-6
-          \include "primo_continuo.ly"
-        }
-        
-        \new Staff \with {
-          fontSize = #-3
-          \override StaffSymbol #'staff-space = #(magstep -3)
-        }	
-        {
-          \set Staff.instrumentName = "Basso"
-          \include "primo_basso.ly"
-        }
-      >>
-    }
-  }
+%  \score {
+%    \new ChoirStaff
+%    {
+%      <<
+%        \new Staff \with {
+%          fontSize = #-3
+%          \override StaffSymbol #'staff-space = #(magstep -3)
+%          \override VerticalAxisGroup #'staff-staff-spacing #'basic-distance = #10
+%        }
+%        {
+%          \set Staff.instrumentName = "Flauto"
+%          \include "primo_flauto.ly"
+%        }
+%        
+%        \new FiguredBass \figuremode {
+%          \set figuredBassAlterationDirection = #LEFT
+%          \set figuredBassPlusDirection = #LEFT
+%          \override VerticalAxisGroup #'minimum-Y-extent = #'()
+%          \override VerticalAxisGroup #'staff-staff-spacing #'basic-distance = #10
+%          \override BassFigureAlignment #'stacking-dir = #UP
+%          \override FiguredBass.BassFigure #'font-size = #-6
+%          \include "primo_continuo.ly"
+%        }
+%        
+%        \new Staff \with {
+%          fontSize = #-3
+%          \override StaffSymbol #'staff-space = #(magstep -3)
+%        }	
+%        {
+%          \set Staff.instrumentName = "Basso"
+%          \include "primo_basso.ly"
+%        }
+%      >>
+%    }
+%  }
 }
