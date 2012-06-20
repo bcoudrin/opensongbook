@@ -18,9 +18,9 @@
   %%blank-last-page-force = #0
 }
 
-%%\layout {
-  %%#(layout-set-staff-size 18)
-%%}
+\layout {
+  #(layout-set-staff-size 18)
+}
 
 \layout {
   \context {
