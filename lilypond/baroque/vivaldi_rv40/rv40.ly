@@ -23,411 +23,265 @@
   %% system-separator-markup = \slashSeparator 
   }
 
-\header {
-    }
+\book {
+	\header {
+		title = "Sonata a violoncello solo"
+		subtitle = \markup \center-column { "Sonata n.5 in mi minore "\small \italic "(RV 40)" }
+		composer =  \markup \right-column { "Antonio Vivaldi" \small "(1678-1741)" }
+		tagline = ""
+		copyright = \markup { "Copyright : " \char ##x00A9 " 2012 Benjamin Coudrin. Copyleft : released under cc-by-3.0 License" }
+	}
+	
+	\score {
+		\new StaffGroup <<
+			\new Staff <<
+				\set Staff.instrumentName = #"Viola"
+				\set Staff.shortInstrumentName = #""
+				\relative c' {
+					\tempo "Largo"
+					\key e \minor
+					\time 4/4 
+					\clef treble
+					\partial 8
+					\repeat volta 2 {
+						e8									| 
+						e' e e e e\trill dis r b			| % 1
+						fis' fis fis fis fis\trill e g b,	| % 2
+						b ais r e' d cis16 b ais8 b16 cis	| % 3
+						e,4. e'8 ( dis eis fis) b,8			| % 4
+						cis4. b8 b4.						  % 5
+					}
+					\repeat volta 2 {
+						fis8										|
+						b8 b b b b\trill ais r8 fis					| % 6
+						cis' cis cis cis cis\trill b fis' (b,)		| % 7
+						b8 a e' (a,) a gis16 (a b c d8)				| % 8
+						d8 c f f f e~ e16 f d c						| % 9
+						b16 a32 g c16 f d8. c16 c4 r8 e				| % 10
+						dis dis dis e16 fis g8 e c4~				| % 11
+						c16 a' fis dis b4~ b16 g' e cis a4~			| % 12
+						a16 fis' dis b g'4. fis16 e d8.\trill e16	| % 13
+						e2~ e16 e fis g fis8 e						| % 14
+						dis16 cis b8 r a g b16 e fis,8. e16			| % 15
+						e16 e' fis cis dis8. e16 e2\fermata			  % 16
+					}
+				}
+			>>
+			
+			\new Staff <<
+				\set Staff.instrumentName = #"Basso"
+				\set Staff.shortInstrumentName = #""
+				\relative c {
+					\clef bass
+					\key e \minor 
+					\time 4/4
+					\partial 8
+					\repeat volta 2 {
+						r8								|
+						r4 r8 b8 b' b b b				| % 1
+						b8\trill a r8 a g g g g			| % 2
+						fis4 r8 fis b,16 cis d e fis4~	| % 3
+						fis8 ais, cis fis b4 ais8 b		| % 4
+						fis4 fis, b4.					  % 5
+					}
+					\repeat volta 2 {
+						r8							|
+						r8 r4 b8 fis' fis fis fis	| % 6
+						fis8\trill e r8 e d4. d8	| % 7
+						c4. d8 e4. e8				| % 8
+						a4. a8 g4 f					| % 9
+						g8 e16 f g8 g, c c c c      | % 10
+						c4 b8 a g4 r8 e'			| % 11
+						dis4. d8 cis4. c8			| % 12
+						b4 e ais, b					| % 13
+						e8 d cis b ais4. ais8		| % 14
+						b cis dis b e,4 b'			| % 15
+						e8 a b b, e,2\fermata		  % 16
+					}
+				}
+			>>
+		>>
+		
+		%\include "settings.ly"
+	}
+	\score {
+		\new StaffGroup <<
+			\new Staff <<
+				\relative c {
+					\tempo "Allegro"
+					\clef bass
+					\partial 8
+					\repeat volta 2 {
+						b8												|
+						e16 g fis e b' g fis e b8 c' b16 a g fis		| % 17
+						e g fis e b' g fis e b8 c' b16 a g fis			| % 18
+						g fis e8 r b' gis, d'' e, d'					| % 19
+						c e, a, c' fis,, c'' d, c'						| % 20
+						b d, g, b' fis, a' dis, a'						| % 21
+						g b, e, g' c,, f' a, f'							| % 22
+						dis16 c' b8~ b16 c b8~ b16 a g fis b a g fis	| % 23
+						g8 e b dis e,4 r8 b'							| % 24
+						e16 g fis e b' g fis e b8 c' b16 a g fis		| % 25
+						e g fis e b' g fis e b8 c' b16 a g fis			| % 26
+						g8 e r g a16 fis d fis a c b a					| % 27
+						b g g, g' b d c b a fis d fis a c b a			| % 28
+						b g g, g' b d c b b8\trill a r8 d,				| % 29
+						e c'4 g8 fis d'4 b8								| % 30
+						g e'4 c8 a(fis4) g8								| % 31
+						d' (fis,4)  g8 e' (fis,4) g8					| % 32
+						c b16 a b8 a16 g d'8 fis, g c					| % 33
+						b8 a16 g c,8 d g,4.								  % 34
+					}
+					\repeat volta 2 {
+						d'8															| 
+						g16 b a g d' b a g d b' a g d' b a g						| % 35
+						fis8 d r e a16 c b a e' c b a								| % 36
+						e c' b a e' c b a gis8 e r e								| % 37
+						f16 (d) fis8 gis16 (e) b'8 c16 (a) c8 d16 (b) d8			| % 38
+						e d16 c b a gis fis e8 d16 c b a gis fis					| % 39
+						e8 a' d, e a,4 r8 b											| % 40
+						e16 g fis e b' g fis e b8 c' b16 (a) g (fis)				| % 41
+						e g fis e b' g fis e b8 c' b16 a g fis						| % 42
+						g8 e r b'16 c d b gis fis e d' c b							| % 43
+						c a e c a8 a'16 b c a fis e d c' b a						| % 44
+						b g d b g8 b'~ b16 e b (c) b e b (c)						| % 45
+						a (d) a (b) a (d) a (b) g (c) g (a) g (c) g (a)				| % 46
+						fis (b) fis (g) fis (b) fis (g) e (a) e(fis) e (a) e(fis)	| % 47
+						dis b e b fis' b, g' b, a'4. g16 fis						| % 48
+						g8 e fis dis e4 r8 b'										| % 49
+						gis, d'' e, d' c e, a, c'									| % 50
+						fis,, c'' d, c' b d, g, b'									| % 51
+						fis, a' dis, a' g b, e, g'									| % 52
+						c,, f' a, f' dis16 c' b8~ b16 c b8~							| % 53
+						b16 c b8~ b16 a g fis g8 e b dis							| % 54
+						\partial 2 e,2												  % 55
+					}
+				}
+			>>
+		>>
+		
+		%\include "settings.ly"
+	}
 
-AvoiceAA = \relative c{
-    \set Staff.instrumentName = #"Violoncello 1"
-    \set Staff.shortInstrumentName = #""
-    \clef bass
-    %staffkeysig
-    \key e \minor
-    %bartimesig: 
-    \time 4/4 
-    \clef tenor
-    \partial 8 e8      | % 1
-    e' e e e e\trill dis r b      | % 2
-    fis' fis fis fis fis\trill e g b,      | % 3
-    b ais r e' d cis16 b ais8 b16 cis      | % 4
-    e,4. e'~ <dis e>16~ dis~ <dis f>~ f~ <f fis>~ fis b,8      | % 5
-    %bartimesig: 
-    \time 7/8 
-    cis4~ cis8 b b4~ b8      | % 6
-    %bartimesig: 
-    \time 4/4 
-    e,8 e' e e e e dis r      | % 7
-    b fis' fis fis fis <fis g>16 <fis g> <e fis g>~ e g8      | % 8
-    b, b ais r e' d cis16 b ais8      | % 9
-    b16 cis e,4~ e8 e'~ <dis e>16~ dis~ <dis f>~ f~ <f fis>~ fis      | % 10
-    %bartimesig: 
-    \time 7/8 
-    cis4~ cis8 b b4~ b8      | % 11
-    %bartimesig: 
-    \time 1/8 
-    fis8      | % 12
-    %bartimesig: 
-    \time 4/4 
-    b8 b b b <b c>16 <b c> <ais b c>~ ais r8 fis      | % 13
-    cis' cis cis cis <cis d>16 <cis d> <b cis d>~ b fis'8~ <b, fis'>16~ b      | % 14
-    b8 a e'~ <a, e'>16~ a a8 gis16~ <gis a>~ <a b>~ <b c>~ <c d>~ d      | % 15
-    d8 c f f f e~ e16 f d c      | % 16
-    b a <g c> f' d8~ d16 c c4 r8 e      | % 17
-    dis dis dis e16 fis g8 e c4~      | % 18
-    c16 a' fis dis b4~ b16 g' e cis a4~      | % 19
-    a16 fis' dis b g'4~ g8 fis16 e <dis e> <dis e> <dis e> <dis e>      | % 20
-    e2~ e16 e fis g fis8 e      | % 21
-    dis16 cis b8 r a g b16 e fis,8~ fis16 e      | % 22
-    %bartimesig: 
-    \time 5/4 
-    e16 e' fis cis dis8~ dis16 e e2~ e4      | % 23
-    %bartimesig: 
-    \time 1/8 
-    fis,8      | % 24
-    %bartimesig: 
-    \time 4/4 
-    b8 b b b <b c>16 <b c> <ais b c>~ ais r8 fis      | % 25
-    cis' cis cis cis <cis d>16 <cis d> <b cis d>~ b fis'8~ <b, fis'>16~ b      | % 26
-    b8 a e'~ <a, e'>16~ a a8 gis16~ <gis a>~ <a b>~ <b c>~ <c d>~ d      | % 27
-    d8 c f f f e~ e16 f d c      | % 28
-    b a <g c> f' d8~ d16 c c4 r8 e      | % 29
-    dis dis dis e16 fis g8 e c4~      | % 30
-    c16 a' fis dis b4~ b16 g' e cis a4~      | % 31
-    a16 fis' dis b g'4~ g8 fis16 e <dis e> <dis e> <dis e> <dis e>      | % 32
-    e2~ e16 e fis g fis8 e      | % 33
-    dis16 cis b8 r a g b16 e fis,8~ fis16 e      | % 34
-    %bartimesig: 
-    \time 5/4 
-    e16 e' fis cis dis8~ dis16 e e2~ e4      | % 35
-    %bartimesig: 
-    \time 3/8 
-    r4 b,8      | % 36
-    %bartimesig: 
-    \time 4/4 
-    e16 g fis e b' g fis e b8 c' b16 a g fis      | % 37
-    e g fis e b' g fis e b8 c' b16 a g fis      | % 38
-    g fis e8 r b' gis, d'' e, d'      | % 39
-    c e, a, c' fis,, c'' d, c'      | % 40
-    b d, g, b' fis, a' dis, a'      | % 41
-    g b, e, g' c,, f' a, f'      | % 42
-    ees16 c' b8~ b16 c b8~ b16 a g fis b a g fis      | % 43
-    g8 e b dis e,4 r8 b'      | % 44
-    e16 g fis e b' g fis e b8 c' b16 a g fis      | % 45
-    e g fis e b' g fis e b8 c' b16 a g fis      | % 46
-    g8 e r g a16 fis d fis a c b a      | % 47
-    b g g, g' b d c b a fis d fis a c b a      | % 48
-    b g g, g' b d c b b <b c> <a c>~ a r8 d,      | % 49
-    e c'4 g8 fis d'4 b8      | % 50
-    g e'4 c8 a~ <fis a>16~ fis8~ fis16 g8      | % 51
-    d'~ <fis, d'>16~ fis8~ fis16 g8 e'~ <fis, e'>16~ fis8~ fis16 g8      | % 52
-    c b16 a b8 a16 g d'8 fis, g c      | % 53
-    %bartimesig: 
-    \time 7/8 
-    b8 a16 g c,8 d g,4~ g8      | % 54
-    %bartimesig: 
-    \time 4/4 
-    b8 e16 g fis e b' g fis e b8 c' b16 a      | % 55
-    g fis e g fis e b' g fis e b8 c' b16 a      | % 56
-    g fis g fis e8 r b' gis, d'' e,      | % 57
-    d' c e, a, c' fis,, c'' d,      | % 58
-    c' b d, g, b' fis, a' dis,      | % 59
-    a' g b, e, g' c,, f' a,      | % 60
-    f' ees16 c' b8~ b16 c b8~ b16 a g fis b a      | % 61
-    g fis g8 e b dis e,4 r8      | % 62
-    b' e16 g fis e b' g fis e b8 c' b16 a      | % 63
-    g fis e g fis e b' g fis e b8 c' b16 a      | % 64
-    g fis g8 e r g a16 fis d fis a c      | % 65
-    b a b g g, g' b d c b a fis d fis a c      | % 66
-    b a b g g, g' b d c b b <b c> <a c>~ a r8      | % 67
-    d, e c'4 g8 fis d'4      | % 68
-    b8 g e'4 c8 a~ <fis a>16~ fis8~ fis16      | % 69
-    g8 d'~ <fis, d'>16~ fis8~ fis16 g8 e'~ <fis, e'>16~ fis8~ fis16      | % 70
-    g8 c b16 a b8 a16 g d'8 fis, g      | % 71
-    %bartimesig: 
-    \time 7/8 
-    b8 a16 g c,8 d g,4~ g8      | % 72
-    %bartimesig: 
-    \time 1/8 
-    d'8      | % 73
-    %bartimesig: 
-    \time 4/4 
-    g16 b a g d' b a g d b' a g d' b a g      | % 74
-    fis8 d r e a16 c b a e' c b a      | % 75
-    e c' b a e' c b a gis8 e r e      | % 76
-    f16~ <d f> fis8 gis16~ <e gis> b'8 c16~ <a c> c8 d16~ <b d> d8      | % 77
-    e d16 c b a gis fis e8 d16 c b a gis fis      | % 78
-    e8 a' d, e a,4 r8 b      | % 79
-    e16 g fis e b' g fis e b8 c' b16~ <a b> g~ <fis g>      | % 80
-    e g fis e b' g fis e b8 c' b16 a g fis      | % 81
-    g8 e r b'16 c d b gis fis e d' c b      | % 82
-    c a e c a8 a'16 b c a fis e d c' b a      | % 83
-    b g d b g8 b'~ b16 e b~ <b c> b e b~ <b c>      | % 84
-    a~ <a d> a~ <a b> a~ <a d> a~ <a b> g~ <g c> g~ <g a> g~ <g c> g~ <g a>      | % 85
-    fis~ <fis b> fis~ <fis g> fis~ <fis b> fis~ <fis g> e~ <e a> e~ <e fis> e~ <e a> e~ <e fis>      | % 86
-    dis b e b fis' b, g' b, a'4~ a8 g16 fis      | % 87
-    g8 e fis dis e4 r8 b'      | % 88
-    gis, d'' e, d' c e, a, c'      | % 89
-    fis,, c'' d, c' b d, g, b'      | % 90
-    fis, a' dis, a' g b, e, g'      | % 91
-    c,, f' a, f' ees16 c' b8~ b16 c b8~      | % 92
-    b16 c b8~ b16 a g fis g8 e b dis      | % 93
-    %bartimesig: 
-    \time 9/8 
-    e,2~ e4 r8 r4      | % 94
-    %bartimesig: 
-    \time 1/8 
-    d'8      | % 95
-    %bartimesig: 
-    \time 4/4 
-    g16 b a g d' b a g d b' a g d' b a g      | % 96
-    fis8 d r e a16 c b a e' c b a      | % 97
-    e c' b a e' c b a gis8 e r e      | % 98
-    f16~ <d f> fis8 gis16~ <e gis> b'8 c16~ <a c> c8 d16~ <b d> d8      | % 99
-    e d16 c b a gis fis e8 d16 c b a gis fis      | % 100
-    e8 a' d, e a,4 r8 b      | % 101
-    e16 g fis e b' g fis e b8 c' b16~ <a b> g~ <fis g>      | % 102
-    e g fis e b' g fis e b8 c' b16 a g fis      | % 103
-    g8 e r b'16 c d b gis fis e d' c b      | % 104
-    c a e c a8 a'16 b c a fis e d c' b a      | % 105
-    b g d b g8 b'~ b16 e b~ <b c> b e b~ <b c>      | % 106
-    a~ <a d> a~ <a b> a~ <a d> a~ <a b> g~ <g c> g~ <g a> g~ <g c> g~ <g a>      | % 107
-    fis~ <fis b> fis~ <fis g> fis~ <fis b> fis~ <fis g> e~ <e a> e~ <e fis> e~ <e a> e~ <e fis>      | % 108
-    dis b e b fis' b, g' b, a'4~ a8 g16 fis      | % 109
-    g8 e fis dis e4 r8 b'      | % 110
-    gis, d'' e, d' c e, a, c'      | % 111
-    fis,, c'' d, c' b d, g, b'      | % 112
-    fis, a' dis, a' g b, e, g'      | % 113
-    c,, f' a, f' ees16 c' b8~ b16 c b8~      | % 114
-    b16 c b8~ b16 a g fis g8 e b dis      | % 115
-    %bartimesig: 
-    \time 9/8 
-    e,2~ e4 r8 r4      | % 116
-    %bartimesig: 
-    \time 12/8 
-    b''8~ b16 d <b c>~ b b4 b8 e~ e16 g <e fis>~ e e4 e8      | % 117
-    dis~ dis16 fis <dis e>~ dis dis4 dis8 e~ e16 d c8 b4 a8      | % 118
-    g~ g16 fis e8 e4 b'8 c~ c16 e <c d>~ c c4 c8      | % 119
-    a~ a16 c <a b>~ a d4 c8 <c d>16 <c d> <c d> <c d> <b c d>~ b r4 d8      | % 120
-    g4 g,8 c~ c16 b a8 g2~ g4      | % 121
-    b8~ b16 d <b c>~ b b4 b8 e~ e16 g <e fis>~ e e4 e8      | % 122
-    dis~ dis16 fis <dis e>~ dis dis4 dis8 e~ e16 d c8 b4 a8      | % 123
-    g~ g16 fis e8 e4 b'8 c~ c16 e <c d>~ c c4 c8      | % 124
-    a~ a16 c <a b>~ a d4 c8 <c d>16 <c d> <c d> <c d> <b c d>~ b r4 d8      | % 125
-    g4 g,8 c~ c16 b a8 g2~ g4      | % 126
-    e8~ e16 gis <e fis>~ e d'4 d8 c~ c16 c, <a b>~ a a4 a8      | % 127
-    d~ d16 fis <d e>~ d c'4 c8 b~ b16 b, <g a>~ g g4 b'8      | % 128
-    e d16~ <c d> b~ <a b> d8 c16~ <b c> a~ <g a> c8 b16~ <a b> g~ <fis g> b8 a16~ <g a> fis e      | % 129
-    b2~ b16 dis' <b cis>~ b a2~ a16 c <a b>~ a      | % 130
-    %bartimesig: 
-    \time 15/8 
-    g4 e'8 g,~ g16 a fis8 e1~ e8      | % 131
-    %bartimesig: 
-    \time 12/8 
-    e8~ e16 gis <e fis>~ e d'4 d8 c~ c16 c, <a b>~ a a4 a8      | % 132
-    d~ d16 fis <d e>~ d c'4 c8 b~ b16 b, <g a>~ g g4 b'8      | % 133
-    e d16~ <c d> b~ <a b> d8 c16~ <b c> a~ <g a> c8 b16~ <a b> g~ <fis g> b8 a16~ <g a> fis e      | % 134
-    b2~ b16 dis' <b cis>~ b a2~ a16 c <a b>~ a      | % 135
-    %bartimesig: 
-    \time 23/8 
-    g4 e'8 g,~ g16 a fis8 e1~ e8 r1      | % 136
-    %bartimesig: 
-    \time 3/8 
-    e'8 b e      | % 137
-    c16~ <b c> a8 c      | % 138
-    b fis b      | % 139
-    g fis e      | % 140
-    e'16~ <e fis> g8 e      | % 141
-    d fis d      | % 142
-    c16 d e8 c      | % 143
-    b4~ b8      | % 144
-    b c b      | % 145
-    dis16 fis e dis cis b      | % 146
-    a8 b a      | % 147
-    dis16 fis e dis cis b      | % 148
-    fis'8 g a      | % 149
-    g fis e      | % 150
-    b c d      | % 151
-    gis,16 b a gis fis e      | % 152
-    b'8 c d      | % 153
-    gis,16 b a gis fis e      | % 154
-    b'8 c d      | % 155
-    c b a      | % 156
-    gis16 a b8 a      | % 157
-    gis16 a b8 a      | % 158
-    gis fis e      | % 159
-    d' c b      | % 160
-    e c a      | % 161
-    f' gis,16 <gis a> a <gis a>      | % 162
-    <gis a>~ a4~ a16      | % 163
-    e'8 b e      | % 164
-    c16~ <b c> a8 c      | % 165
-    b fis b      | % 166
-    g fis e      | % 167
-    e'16~ <e fis> g8 e      | % 168
-    d fis d      | % 169
-    c16 d e8 c      | % 170
-    b4~ b8      | % 171
-    b c b      | % 172
-    dis16 fis e dis cis b      | % 173
-    a8 b a      | % 174
-    dis16 fis e dis cis b      | % 175
-    fis'8 g a      | % 176
-    g fis e      | % 177
-    b c d      | % 178
-    gis,16 b a gis fis e      | % 179
-    b'8 c d      | % 180
-    gis,16 b a gis fis e      | % 181
-    b'8 c d      | % 182
-    c b a      | % 183
-    gis16 a b8 a      | % 184
-    gis16 a b8 a      | % 185
-    gis fis e      | % 186
-    d' c b      | % 187
-    e c a      | % 188
-    f' gis,16 <gis a> a <gis a>      | % 189
-    <gis a>~ a4~ a16      | % 190
-    e'8 b e      | % 191
-    g e cis      | % 192
-    ais cis fis      | % 193
-    d cis b      | % 194
-    fis g fis      | % 195
-    g' f fis      | % 196
-    fis, g fis      | % 197
-    fis' dis e      | % 198
-    fis, g fis      | % 199
-    e' cis d~      | % 200
-    d cis b      | % 201
-    g' ais,16 <ais b> b <ais b>      | % 202
-    <ais b>~ b8~ b16 r8      | % 203
-    e b e      | % 204
-    c16 b a8 c      | % 205
-    b fis b      | % 206
-    g fis e      | % 207
-    b' e4~      | % 208
-    e16 d e d c b      | % 209
-    c8 e, a~      | % 210
-    a16 g a g fis e      | % 211
-    dis8 fis a      | % 212
-    c b a      | % 213
-    a4 g8      | % 214
-    b g e      | % 215
-    c b a      | % 216
-    c' a fis      | % 217
-    dis cis b      | % 218
-    dis'16~ <dis e>~ <e fis>~ fis dis8      | % 219
-    a16~ <a b>~ <b c>~ c a8      | % 220
-    dis16~ <dis e>~ <e fis>~ fis dis8      | % 221
-    a16~ <a b>~ <b c>~ c a8      | % 222
-    g e e'      | % 223
-    g, fis16 <fis g> g <fis g>      | % 224
-    <e fis>~ e8~ e16 r8      | % 225
-    a16~ <a b>~ <b c>~ c a8      | % 226
-    dis e r      | % 227
-    a,16~ <a b>~ <b c>~ c a8      | % 228
-    g16 b e b g e'      | % 229
-    fis, b dis b fis dis'      | % 230
-    %bartimesig: 
-    \time 9/16 
-    e2~ e16      | % 231
-    %bartimesig: 
-    \time 3/8 
-    e8 b e      | % 232
-    g e cis      | % 233
-    ais cis fis      | % 234
-    d cis b      | % 235
-    fis g fis      | % 236
-    g' eis fis      | % 237
-    fis, g fis      | % 238
-    fis' dis e      | % 239
-    fis, g fis      | % 240
-    e' cis d~      | % 241
-    d cis b      | % 242
-    g' ais,16 <ais b> b <ais b>      | % 243
-    <ais b>~ b8~ b16 r8      | % 244
-    e b e      | % 245
-    c16 b a8 c      | % 246
-    b fis b      | % 247
-    g fis e      | % 248
-    b' e4~      | % 249
-    e16 d e d c b      | % 250
-    c8 e, a~      | % 251
-    a16 g a g fis e      | % 252
-    dis8 fis a      | % 253
-    c b a      | % 254
-    a4 g8      | % 255
-    b g e      | % 256
-    c b a      | % 257
-    c' a fis      | % 258
-    dis cis b      | % 259
-    dis'16~ <dis e>~ <e fis>~ fis dis8      | % 260
-    a16~ <a b>~ <b c>~ c a8      | % 261
-    dis16~ <dis e>~ <e fis>~ fis dis8      | % 262
-    a16~ <a b>~ <b c>~ c a8      | % 263
-    g e e'      | % 264
-    g, fis16 <fis g> g <fis g>      | % 265
-    <e fis>~ e8~ e16 r8      | % 266
-    a16~ <a b>~ <b c>~ c a8      | % 267
-    dis e r      | % 268
-    a,16~ <a b>~ <b c>~ c a8      | % 269
-    g16 b e b g e'      | % 270
-    fis, b dis b fis dis'      | % 271
-    b8 s4 c8 %bartimesig: 
-    \time 9/16 
-    s4 e2~ e16 \bar "|." 
-}% end of last bar in partorvoice
+	\score {
+		\new StaffGroup <<
+			\new Staff <<
+				\relative c {
+					\tempo "Largo"
+					\time 12/8 
+					\clef bass
+					\repeat volta 2 {
+						b'8. [d32 (c) b8] b4 b8 [e8. g32 (fis) e8] e4 e8	| % 56
+						dis8. [fis32 (e) dis8] dis4 dis8 e8. [d16 c8] b4 a8	| % 57
+						g8. [fis16 e8] e4 b'8 c8. [e32 (d) c8] c4 c8		| % 58
+						a8. [c32 (b) a8] d4 c8 c4\trill b8 r8 r8 d8			| % 59
+						g4 g,8 c8. [b16 a8] g2.								| % 60
+					}
+					\repeat volta 2 {
+						e8. gis32 (fis) e8 d'4 d8 c8. c,32 (b) a8 a4 a8							| % 61
+						d8. fis32 (e) d8 c'4 c8 b8. b,32 (a) g8 g4 b'8							| % 62
+						e d16 (c) b (a) d8 c16 (b) a (g) c8 b16 (a) g (fis) b8 a16 (g) fis e	| % 63
+						b4.~b8. dis'32 (cis) b8 a4. a8. c32 (b) a8								| % 64
+						g4 e'8 g,8. a16 fis8 e2.\fermata										| % 65
+					}
+				}
+			>>
+		>>
+		
+		%\include "settings.ly"
+	}
 
- 
+	\score {
+		\new StaffGroup <<
+			\new Staff <<
+				\relative c {
+					\tempo "Allegro"
+					\time 3/8 
+					\clef tenor
+					\repeat volta 2 {
+						e'8 b e					| % 66
+						c16 (b) a8 c			| % 67
+						b fis b					| % 68
+						g fis e					| % 69
+						e'16 (fis) g8 e			| % 70
+						d fis d    				| % 71
+						c16 d e8 c      		| % 72
+						b4.						| % 73
+						b c b					| % 74
+						dis16 fis e dis cis b	| % 75
+						a8 b a					| % 76
+						dis16 fis e dis cis b	| % 77
+						fis'8 g a				| % 78
+						g fis e					| % 79
+						b c d					| % 80
+						gis,16 b a gis fis e	| % 81
+						b'8 c d					| % 82
+						gis,16 b a gis fis e	| % 83
+						b'8 c d					| % 84
+						c b a					| % 85
+						gis16 a b8 a			| % 86
+						gis16 a b8 a			| % 87
+						gis fis e				| % 88
+						d' c b					| % 89
+						e c a					| % 90
+						f' gis,4\trill			| % 91
+						a4.						| % 92
+					}
+					\repeat volta 2 {
+						e'8 b e					| % 93
+						g e cis					| % 94
+						ais cis fis				| % 95
+						d cis b					| % 96
+						fis g fis				| % 97
+						g' f fis				| % 98
+						fis, g fis				| % 99
+						fis' dis e				| % 100
+						fis, g fis				| % 101
+						e' cis d~				| % 102
+						d cis b					| % 103
+						g' ais,4\trill  		| % 104
+						b4 r8      				| % 105
+						e b e      				| % 106
+						c16 b a8 c      		| % 107
+						b fis b      			| % 108
+						g fis e      			| % 109
+						b' e4~      			| % 110
+						e16 d e d c b   		| % 111
+						c8 e, a~      			| % 112
+						a16 g a g fis e 		| % 113
+						dis8 fis a      		| % 114
+						c b a      				| % 115
+						a4 g8      				| % 116
+						\clef bass
+						b g e     				| % 117
+						c b a      				| % 118
+						c' a fis      			| % 119
+						dis cis b      			| % 120
+						\clef tenor
+						dis'16 (e fis8) dis8	| % 121
+						a16 (b c8) a8			| % 122
+						dis16 (e fis8) dis8		| % 123
+						a16 (b c8) a8			| % 124
+						g e e'					| % 125
+						g, fis4\trill			| % 126
+						e4 r8					| % 127
+						a16 (b c8) a8			| % 128
+						dis e r					| % 129
+						a,16 (b c8) a8			| % 130
+						g16 b e b g e'			| % 131
+						fis, b dis b fis dis'	| % 132
+						e4.\fermata      		| % 133
+					}
+				}
+			>>
+		>>
+		
+		%\include "settings.ly"
+	}
+}
 
 AvoiceBA = \relative c{
-    \set Staff.instrumentName = #"Violoncello 2"
-    \set Staff.shortInstrumentName = #""
-    \clef bass
-    %staffkeysig
-    \key e \minor 
-    %bartimesig: 
-    \time 4/4 
-    \partial 8 r8  | % 
-    r8 r4 b8 b' b b b      | % 2
-    <b c>16 <b c> <a b c>~ a r8 a g g g g      | % 3
-    fis4 r8 fis b,16 cis d e fis4~      | % 4
-    fis8 ais, cis fis b4 ais8 b      | % 5
-    %bartimesig: 
-    \time 7/8 
-    fis4 fis, b~ b8      | % 6
-    %bartimesig: 
-    \time 4/4 
-    r2 b8 b' b b      | % 7
-    b <b c>16 <b c> <a b c>~ a r8 a g g g      | % 8
-    g fis4 r8 fis b,16 cis d e fis8~      | % 9
-    fis4 ais,8 cis fis b4 ais8      | % 10
-    %bartimesig: 
-    \time 7/8 
-    fis4 fis, b~ b8      | % 11
-    %bartimesig: 
-    \time 1/8 
-    r8      | % 12
-    %bartimesig: 
-    \time 4/4 
-    r8 r4 b8 fis' fis fis fis      | % 13
-    <fis g>16 <fis g> <e fis g>~ e r8 e d4~ d8 d      | % 14
-    c4~ c8 d e4~ e8 e      | % 15
-    a4~ a8 a g4 f      | % 16
-    g8 e16 f g8 g, c c c c      | % 17
-    c4 b8 a g4 r8 e'      | % 18
-    dis4~ dis8 d cis4~ cis8 c      | % 19
-    b4 e ais, b      | % 20
-    e8 d cis b ais4~ ais8 ais      | % 21
-    b cis dis b e,4 b'      | % 22
-    %bartimesig: 
-    \time 5/4 
-    e8 a b b, e,2~ e4      | % 23
-    %bartimesig: 
-    \time 1/8 
-    r8      | % 24
-    %bartimesig: 
-    \time 4/4 
-    r8 r4 b'8 fis' fis fis fis      | % 25
-    <fis g>16 <fis g> <e fis g>~ e r8 e d4~ d8 d      | % 26
-    c4~ c8 d e4~ e8 e      | % 27
-    a4~ a8 a g4 f      | % 28
-    g8 e16 f g8 g, c c c c      | % 29
-    c4 b8 a g4 r8 e'      | % 30
-    dis4~ dis8 d cis4~ cis8 c      | % 31
-    b4 e ais, b      | % 32
-    e8 d cis b ais4~ ais8 ais      | % 33
-    b cis dis b e,4 b'      | % 34
-    %bartimesig: 
-    \time 5/4 
-    e8 a b b, e,2~ e4      | % 35
+
     %bartimesig: 
     \time 3/8 
     r4 b'8      | % 36
@@ -704,47 +558,3 @@ AvoiceBA = \relative c{
     \time 9/16 
     s4 e,2~ e16 \bar "|." 
 }% end of last bar in partorvoice
-
-
-\score { 
-    << 
-        \context Staff = ApartA << 
-            \context Voice = AvoiceAA \AvoiceAA
-        >>
-
-
-        \context Staff = ApartB << 
-            \context Voice = AvoiceBA \AvoiceBA
-        >>
-
-
-
-
-      \set Score.skipBars = ##t
-      %%\set Score.melismaBusyProperties = #'()
-      \override Score.BarNumber #'break-visibility = #end-of-line-invisible %%every bar is numbered.!!!
-      %% remove previous line to get barnumbers only at beginning of system.
-       #(set-accidental-style 'modern-cautionary)
-      \set Score.markFormatter = #format-mark-box-letters %%boxed rehearsal-marks
-       \override Score.TimeSignature #'style = #'() %%makes timesigs always numerical
-      %% remove previous line to get cut-time/alla breve or common time 
-      \set Score.pedalSustainStyle = #'mixed 
-       %% make spanners comprise the note it end on, so that there is no doubt that this note is included.
-       \override Score.TrillSpanner #'(bound-details right padding) = #-2
-      \override Score.TextSpanner #'(bound-details right padding) = #-1
-      %% Lilypond's normal textspanners are too weak:  
-      \override Score.TextSpanner #'dash-period = #1
-      \override Score.TextSpanner #'dash-fraction = #0.5
-      %% lilypond chordname font, like mscore jazzfont, is both far too big and extremely ugly (olagunde@start.no):
-      \override Score.ChordName #'font-family = #'roman 
-      \override Score.ChordName #'font-size =#0 
-      %% In my experience the normal thing in printed scores is maj7 and not the triangle. (olagunde):
-      \set Score.majorSevenSymbol = \markup {maj7}
-  >>
-
-  %% Boosey and Hawkes, and Peters, have barlines spanning all staff-groups in a score,
-  %% Eulenburg and Philharmonia, like Lilypond, have no barlines between staffgroups.
-  %% If you want the Eulenburg/Lilypond style, comment out the following line:
-  \layout {\context {\Score \consists Span_bar_engraver}}
-}%% end of score-block 
-
