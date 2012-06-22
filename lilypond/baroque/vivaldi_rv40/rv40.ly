@@ -31,15 +31,15 @@ AvoiceAA = \relative c{
     \set Staff.shortInstrumentName = #""
     \clef bass
     %staffkeysig
-    \key g \major 
+    \key e \minor
     %bartimesig: 
     \time 4/4 
     \clef tenor
     \partial 8 e8      | % 1
-    e' e e e e dis r b      | % 2
-    fis' fis fis fis <fis g>16 <fis g> <e fis g>~ e g8 b,      | % 3
+    e' e e e e\trill dis r b      | % 2
+    fis' fis fis fis fis\trill e g b,      | % 3
     b ais r e' d cis16 b ais8 b16 cis      | % 4
-    e,4~ e8 e'~ <dis e>16~ dis~ <dis f>~ f~ <f fis>~ fis b,8      | % 5
+    e,4. e'~ <dis e>16~ dis~ <dis f>~ f~ <f fis>~ fis b,8      | % 5
     %bartimesig: 
     \time 7/8 
     cis4~ cis8 b b4~ b8      | % 6
