@@ -32,6 +32,8 @@
 		copyright = \markup { "Copyright : " \char ##x00A9 " 2012 Benjamin Coudrin. Copyleft : released under cc-by-3.0 License" }
 	}
 	
+	%#(set-global-staff-size 17)
+	
 	\score {
 		\new StaffGroup <<
 			\new Staff <<
@@ -107,9 +109,9 @@
 	\score {
 		\new StaffGroup <<
 			\new Staff <<
-				\relative c {
+				\relative c' {
 					\tempo "Allegro"
-					\clef bass
+					\clef alto
 					\partial 8
 					\repeat volta 2 {
 						b8												|
@@ -157,6 +159,58 @@
 						\partial 2 e,2												  % 55
 					}
 				}
+			>>
+			
+			\new Staff <<
+				\relative c {
+					\clef bass
+					\partial 8
+					\repeat volta 2 {
+						b8						|
+						e4 e, b' dis			| % 17
+						e e, b' dis				| % 18
+						e8 fis g e gis,4 e'		| % 19
+						a a, fis d'				| % 20
+						g g, b dis				| % 21
+						e e, a a				| % 32
+						b8 e g b dis, b dis b	| % 23
+						e g,16 a b8 b e,4 r8 b'	| % 24
+						e4 e, b' dis			| % 25
+						e e, b' dis				| % 26
+						e8 fis g e d4 fis		| % 27
+						g g, fis' d				| % 28
+						g g, d'8 c b g			| % 29
+						c4 e8 c d4 fis8 d		| % 30
+						e4 g8 e d4 d			| % 31
+						d d d d					| % 32
+						d d d e8 fis			| % 33
+						g8 b, c d g,4.			  % 34
+					}
+					\repeat volta 2 {
+						d'8							| %
+						g4 g, d' b8 c				| % 35
+						d d' gis, e a4 a,			| % 36
+						e' c8 d e d c a				| % 37
+						d4 e a, b					| % 38
+						c r e r						| % 39
+						e,8 a' d, e a, a' dis, b	| % 40
+						e4 e, b' dis				| % 41
+						e e, b' dis					| % 42
+						e8 fis g fis e4 gis,		| % 43
+						a r d fis,					| % 44
+						g r g'8 g g g				| % 45
+						fis fis fis fis e e e e		| % 46
+						d d d d c c c c				| % 47
+						b b b b b cis dis b			| % 48
+						e g, a b e fis g e			| % 49
+						gis,4 e' a a,				| % 50
+						fis d' g g,					| % 51
+						b dis e e,					| % 52
+						a a b8 e g e				| % 53
+						dis b dis b e g,16 a b8 b	| % 54
+						\partial 2 e,2				  % 94
+					}
+				 }
 			>>
 		>>
 		
@@ -281,111 +335,6 @@
 }
 
 AvoiceBA = \relative c{
-
-    %bartimesig: 
-    \time 3/8 
-    r4 b'8      | % 36
-    %bartimesig: 
-    \time 4/4 
-    e4 e, b' dis      | % 37
-    e e, b' dis      | % 38
-    e8 fis g e gis,4 e'      | % 39
-    a a, fis d'      | % 40
-    g g, b dis      | % 41
-    e e, a a      | % 42
-    b8 e g b dis, b dis b      | % 43
-    e g,16 a b8 b e,4 r8 b'      | % 44
-    e4 e, b' dis      | % 45
-    e e, b' dis      | % 46
-    e8 fis g e d4 fis      | % 47
-    g g, fis' d      | % 48
-    g g, d'8 c b g      | % 49
-    c4 e8 c d4 fis8 d      | % 50
-    e4 g8 e d4 d      | % 51
-    d d d d      | % 52
-    d d d e8 fis      | % 53
-    %bartimesig: 
-    \time 7/8 
-    g8 b, c d g,4~ g8      | % 54
-    %bartimesig: 
-    \time 4/4 
-    b8 e4 e, b' dis8~      | % 55
-    dis e4 e, b' dis8~      | % 56
-    dis e fis g e gis,4 e'8~      | % 57
-    e a4 a, fis d'8~      | % 58
-    d g4 g, b dis8~      | % 59
-    dis e4 e, a a8~      | % 60
-    a b e g b dis, b dis      | % 61
-    b e g,16 a b8 b e,4 r8      | % 62
-    b' e4 e, b' dis8~      | % 63
-    dis e4 e, b' dis8~      | % 64
-    dis e fis g e d4 fis8~      | % 65
-    fis g4 g, fis' d8~      | % 66
-    d g4 g, d'8 c b      | % 67
-    g c4 e8 c d4 fis8      | % 68
-    d e4 g8 e d4 d8~      | % 69
-    d d4 d d d8~      | % 70
-    d d4 d d e8      | % 71
-    %bartimesig: 
-    \time 7/8 
-    g8 b, c d g,4~ g8      | % 72
-    %bartimesig: 
-    \time 1/8 
-    d'8      | % 73
-    %bartimesig: 
-    \time 4/4 
-    g4 g, d' b8 c      | % 74
-    d d' gis, e a4 a,      | % 75
-    e' c8 d e d c a      | % 76
-    d4 e a, b      | % 77
-    c r e r      | % 78
-    e,8 a' d, e a, a' dis, b      | % 79
-    e4 e, b' dis      | % 80
-    e e, b' dis      | % 81
-    e8 fis g fis e4 gis,      | % 82
-    a r d fis,      | % 83
-    g r g'8 g g g      | % 84
-    fis fis fis fis e e e e      | % 85
-    d d d d c c c c      | % 86
-    b b b b b cis dis b      | % 87
-    e g, a b e fis g e      | % 88
-    gis,4 e' a a,      | % 89
-    fis d' g g,      | % 90
-    b dis e e,      | % 91
-    a a b8 e g e      | % 92
-    dis b dis b e g,16 a b8 b      | % 93
-    %bartimesig: 
-    \time 9/8 
-    e,2~ e4 r8 r4      | % 94
-    %bartimesig: 
-    \time 1/8 
-    d'8      | % 95
-    %bartimesig: 
-    \time 4/4 
-    g4 g, d' b8 c      | % 96
-    d d' gis, e a4 a,      | % 97
-    e' c8 d e d c a      | % 98
-    d4 e a, b      | % 99
-    c r e r      | % 100
-    e,8 a' d, e a, a' dis, b      | % 101
-    e4 e, b' dis      | % 102
-    e e, b' dis      | % 103
-    e8 fis g fis e4 gis,      | % 104
-    a r d fis,      | % 105
-    g r g'8 g g g      | % 106
-    fis fis fis fis e e e e      | % 107
-    d d d d c c c c      | % 108
-    b b b b b cis dis b      | % 109
-    e g, a b e fis g e      | % 110
-    gis,4 e' a a,      | % 111
-    fis d' g g,      | % 112
-    b dis e e,      | % 113
-    a a b8 e g e      | % 114
-    dis b dis b e g,16 a b8 b      | % 115
-    %bartimesig: 
-    \time 9/8 
-    e,2~ e4 r8 r4      | % 116
-    %bartimesig: 
     \time 12/8 
     e'4 e8 e4 e8 g4 g8 g4 e8      | % 117
     b'4 b8 a4 a8 g4 g8 dis4 dis8      | % 118
