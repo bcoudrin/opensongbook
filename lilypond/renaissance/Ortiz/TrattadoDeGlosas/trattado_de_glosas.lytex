@@ -1,0 +1,84 @@
+\documentclass[a4paper]{report}
+\usepackage{graphicx}
+\usepackage{minitoc}
+
+\title{Trattado de Glosas \\ \small sobre Clausulas y otros generos depuntos en la Musica de Violones nueuamente puestos en luz}
+\author{Diego Ortiz Tolledano}
+\date{1553 \\ \vspace{1cm}
+	\begin{center}
+		\includegraphics[width=10cm]{../ortiz.png}
+	\end{center}}
+
+\begin{document}
+	\dominitoc
+	
+	% Cover
+	\thispagestyle{empty}
+	\maketitle
+	
+	% Legal
+	\newpage
+	TODO : Legal stuff about our retypeset (Copyright \dots )
+	
+%% LIBRO PRIMO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\part{Libro Primo}
+	
+	% Original Legal
+	\newpage
+	TODO : Original legal information
+	
+	% Dedication
+	\newpage
+	TODO : Original dedication
+	
+	% Preamble
+	\newpage
+	TODO : Preamble
+	
+	% Table of contents
+	\newpage
+	\minitoc
+	
+	\begin{lilypond}
+		\relative c'' {
+			\override Staff.TimeSignature #'stencil = ##f
+			\key f \major
+			bes2 a2. g4 g2. f4 fis2 g1\fermata \bar "||"
+			bes2 a4 g \bar"|"
+			a g g f8 g \bar "|"
+			a g f e g4 f g1\fermata \bar "||"
+		}
+	\end{lilypond}
+	
+	
+	
+%% LIBRO SECUNDO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+	\part{Libro Secundo}
+	
+
+%Documents for \verb+lilypond-book+ may freely mix music and text.
+%For example,
+
+%\begin{lilypond}
+%\relative c' {
+%  c2 g'2 \times 2/3 { f8 e d } c'2 g4
+%}
+%\end{lilypond}
+
+%Options are put in brackets.
+
+%\begin[fragment,quote,staffsize=26,verbatim]{lilypond}
+%  c'4 f16
+%\end{lilypond}
+
+%Larger examples can be put into a separate file, and introduced with
+%\verb+\lilypondfile+.
+
+%\lilypondfile[quote,noindent]{screech-boink.ly}
+
+%(If needed, replace screech-boink.ly by any .ly file you put in the same
+%directory as this file.)
+
+\end{document}
