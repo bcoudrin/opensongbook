@@ -30,11 +30,40 @@
 	
 	% Dedication
 	\newpage
+	\chapter{Al Illustriss. Signore Don Pietro D'Urries}
 	TODO : Original dedication
 	
 	% Preamble
 	\newpage
+	\chapter{El Primo Libro De Diego Ortiz Toletano}
 	TODO : Preamble
+	
+	\section{Al li lettori}
+	\section{El modo che se ha de tener per glosare}
+	\section{Modo di glosare sopra el libro}
+	\begin{lilypond}
+		<<
+		\new Staff \with {
+			\remove "Time_signature_engraver"
+			\override Clef #'transparent = ##t
+		}
+		\relative c'' {
+			\time 2/1
+			\bar "||" 
+			d1 c
+			d4. c8 d e d4 c1
+			d b
+			d4. e8 d c d4 b1
+			d a
+			d4. c8 d b c d a1
+			d g,
+			d'8 e f e d c d4
+			\cadenzaOn
+			g,1 \bar ""
+			\cadenzaOff
+		}
+		>>
+	\end{lilypond}
 	
 	% Table of contents
 	\newpage
