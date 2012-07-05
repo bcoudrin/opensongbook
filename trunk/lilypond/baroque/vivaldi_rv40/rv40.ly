@@ -12,7 +12,7 @@
 \version "2.14.2"
 
 #(set-default-paper-size "a4")
-#(set-global-staff-size 19)
+#(set-global-staff-size 18)
 
 \paper {
   line-width    = 190\mm
@@ -21,7 +21,8 @@
   bottom-margin = 20\mm
   ragged-last-bottom = ##t 
   ragged-bottom = ##f
-  annotate-spacing = ##t
+  annotate-spacing = ##f
+  #(define page-breaking ly:page-turn-breaking)
 }
 
 \book {
@@ -124,6 +125,7 @@
             b d, g, b' fis, a' dis, a'                    | % 21
             g b, e, g' c,, f' a, f'                       | % 22
             dis16 c' b8~ b16 c b8~ b16 a g fis b a g fis  | % 23
+            %\allowPageTurn
             g8 e b dis e,4 r8 b'                          | % 24
             e16 g fis e b' g fis e b8 c' b16 a g fis      | % 25
             e g fis e b' g fis e b8 c' b16 a g fis        | % 26
