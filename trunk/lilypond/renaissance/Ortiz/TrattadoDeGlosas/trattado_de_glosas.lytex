@@ -42,6 +42,16 @@
 	\section{El modo che se ha de tener per glosare}
 	\section{Modo di glosare sopra el libro}
 	\begin{lilypond}
+		#(set-global-staff-size 13)
+		\paper {
+			indent = #0
+		}
+		\layout {
+			\context {
+				\Score
+				\override SpacingSpanner #'uniform-stretching = ##t
+			}
+		}
 		<<
 		\new Staff \with {
 			\remove "Time_signature_engraver"
@@ -51,13 +61,13 @@
 			\time 2/1
 			\bar "||" 
 			d1 c
-			d4. c8 d e d4 c1
+			d4. c8 d [e] d4 c1
 			d b
-			d4. e8 d c d4 b1
+			d4. e8 d [c] d4 b1
 			d a
-			d4. c8 d b c d a1
+			d4. c8 d [b c d] a1
 			d g,
-			d'8 e f e d c d4
+			d'8 [e f e] d c d4
 			\cadenzaOn
 			g,1 \bar ""
 			\cadenzaOff
