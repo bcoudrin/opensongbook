@@ -1,6 +1,8 @@
 \documentclass[a4paper]{report}
 \usepackage{graphicx}
 \usepackage{minitoc}
+\usepackage[top=1.5cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+%\usepackage[cm]{fullpage}
 
 \title{Trattado de Glosas \\ \small sobre Clausulas y otros generos depuntos en la Musica de Violones nueuamente puestos en luz}
 \author{Diego Ortiz Tolledano}
@@ -19,6 +21,8 @@
 	% Legal
 	\newpage
 	TODO : Legal stuff about our retypeset (Copyright \dots )
+	
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	
 %% LIBRO PRIMO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -42,7 +46,7 @@
 	\section{El modo che se ha de tener per glosare}
 	\section{Modo di glosare sopra el libro}
 	\begin{lilypond}
-		#(set-global-staff-size 13)
+		#(set-global-staff-size 15)
 		\paper {
 			indent = #0
 		}
