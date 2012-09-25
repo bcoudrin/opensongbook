@@ -1,0 +1,49 @@
+\documentclass[a4paper]{report}
+\usepackage{graphicx}
+\usepackage{minitoc}
+\usepackage[top=1.5cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+
+\title{Trattado de Glosas \\ \small Libro secondo}
+\author{Diego Ortiz Tolledano}
+
+\begin{document}
+	\dominitoc
+	
+	% Cover
+	\thispagestyle{empty}
+	\maketitle
+	
+	% Table of contents
+	\newpage
+	\minitoc
+	
+	\section{Dechiaratione delle maniere che s'han da sonare col Violone, e col Cimbalo insieme}
+	\section{L'ordine che se ha da tener 'in accodar' il Violone col Cimbalo}
+	\section{Recercata prima}
+	\lilypondfile[quote,noindent]{lys/bk2_c1_r1.ly}
+	
+
+%Documents for \verb+lilypond-book+ may freely mix music and text.
+%For example,
+
+%\begin{lilypond}
+%\relative c' {
+%  c2 g'2 \times 2/3 { f8 e d } c'2 g4
+%}
+%\end{lilypond}
+
+%Options are put in brackets.
+
+%\begin[fragment,quote,staffsize=26,verbatim]{lilypond}
+%  c'4 f16
+%\end{lilypond}
+
+%Larger examples can be put into a separate file, and introduced with
+%\verb+\lilypondfile+.
+
+%\lilypondfile[quote,noindent]{screech-boink.ly}
+
+%(If needed, replace screech-boink.ly by any .ly file you put in the same
+%directory as this file.)
+
+\end{document}
