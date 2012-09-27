@@ -17,10 +17,17 @@
 	\newpage
 	\minitoc
 	
-	\section{Dechiaratione delle maniere che s'han da sonare col Violone, e col Cimbalo insieme}
-	\section{L'ordine che se ha da tener 'in accodar' il Violone col Cimbalo}
-	\section{Recercata prima}
-	\lilypondfile[quote,noindent]{lys/bk2_c1_r1.ly}
+	\chapter{Dechiaratione delle maniere che s'han da sonare col Violone, e col Cimbalo insieme}
+	
+	\chapter{L'ordine che se ha da tener 'in accodar' il Violone col Cimbalo}
+	\chapter{Recercata prima}
+		\lilypondfile[quote,noindent]{lys/bk2_c1_r1.ly}
+	\chapter{Recercada seconda}
+		\lilypondfile[quote,noindent]{lys/bk2_c1_r2.ly}
+	\chapter{Recercata terza}
+		\lilypondfile[quote,noindent]{lys/bk2_c1_r3.ly}
+	\chapter{Recercada quarta}
+		\lilypondfile[quote,noindent]{lys/bk2_c1_r4.ly}
 	
 
 %Documents for \verb+lilypond-book+ may freely mix music and text.
