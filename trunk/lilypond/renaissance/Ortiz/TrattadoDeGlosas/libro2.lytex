@@ -55,6 +55,7 @@
 		\lilypondfile[quote,noindent]{lys/ofelici_r4.ly}
 		
 	\chapter{Una canzon Francese Doulce Memoire}
+		\lilypondfile[quote,noindent]{lys/doulcememoire.ly}
 	\section{Recercada prima sopra Doulce Memoire}
 		\lilypondfile[quote,noindent]{lys/doulcememoire_r1.ly}
 	\section{Recercada seconda sopra la detta canzone}
