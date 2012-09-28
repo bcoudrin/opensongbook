@@ -18,8 +18,8 @@
 	\minitoc
 	
 	\chapter{Dechiaratione delle maniere che s'han da sonare col Violone, e col Cimbalo insieme}
+	input{page050.tex}
 	
-	\chapter{L'ordine che se ha da tener 'in accodar' il Violone col Cimbalo}
 	\section{Recercata prima}
 		\lilypondfile[quote,noindent]{lys/bk2_c1_r1.ly}
 	\section{Recercada seconda}
