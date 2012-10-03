@@ -29,7 +29,10 @@
 	\section{Recercada quarta}
 		\lilypondfile[quote,noindent]{lys/bk2_c1_r4.ly}
 		
-	\chapter{De la seconda manera de tener el Violon con el Cymbalo que es sobre canto llano}
+	 % à vérifier
+   %\chapter{De la seconda manera de tener el Violon con el Cymbalo que es sobre canto llano}
+  \chapter{De la seconda maniera di sonare il Violone insieme col Cimbalo, ch'e gia sopra del canto piano}
+    \input{page058.tex}
 	\section{Recercada primera}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r1.ly}
 	\section{Recercada secunda}
