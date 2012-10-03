@@ -46,7 +46,10 @@
 	\section{Recercada sesta}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r6.ly}
 	
-	\chapter{La tercera manera de taner el Violon con el Cymbalo que es sobre cosas compuestas}
+  % à vérifier 
+	%\chapter{La tercera manera de taner el Violon con el Cymbalo que es sobre cosas compuestas}
+   \chapter{La terza maniera di sonar il Violone col Cimbalo, che sara sopra le compositioni o piu voci}
+     \input{page068.tex}
 		\lilypondfile[quote,noindent]{lys/ofelici.ly}
 	\section{Recercada primera sobre O Felici Occhi Miei}
 		\lilypondfile[quote,noindent]{lys/ofelici_r1.ly}
