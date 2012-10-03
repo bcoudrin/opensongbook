@@ -51,6 +51,8 @@
    \chapter{La terza maniera di sonar il Violone col Cimbalo, che sara sopra le compositioni o piu voci}
      \input{page068.tex}
 		\lilypondfile[quote,noindent]{lys/ofelici.ly}
+  
+     \input{page073.tex}
 	\section{Recercada primera sobre O Felici Occhi Miei}
 		\lilypondfile[quote,noindent]{lys/ofelici_r1.ly}
 	\section{Recercada segunda sobre el mismo madrigal}
@@ -60,6 +62,8 @@
 	\section{Recercada quarta que es quinta boz sobre el mismo Madrigal}
 		\lilypondfile[quote,noindent]{lys/ofelici_r4.ly}
 		
+      
+      
 	\chapter{Una canzon Francese Doulce Memoire}
 		\lilypondfile[quote,noindent]{lys/doulcememoire.ly}
 	\section{Recercada prima sopra Doulce Memoire}
