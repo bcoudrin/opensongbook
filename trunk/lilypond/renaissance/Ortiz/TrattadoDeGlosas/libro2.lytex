@@ -59,6 +59,7 @@
 		\lilypondfile[quote,noindent]{lys/ofelici_r2.ly}
 	\section{Recercada tercera sobre el mismo madrigal}
 		\lilypondfile[quote,noindent]{lys/ofelici_r3.ly}
+     \input{page080.tex}
 	\section{Recercada quarta que es quinta boz sobre el mismo Madrigal}
 		\lilypondfile[quote,noindent]{lys/ofelici_r4.ly}
 		
