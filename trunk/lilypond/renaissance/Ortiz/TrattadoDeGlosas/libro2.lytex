@@ -28,16 +28,15 @@
 		\lilypondfile[quote,noindent]{lys/bk2_c1_r3.ly}
 	\section{Recercada quarta}
 		\lilypondfile[quote,noindent]{lys/bk2_c1_r4.ly}
-		
-	 % à vérifier
-   %\chapter{De la seconda manera de tener el Violon con el Cymbalo que es sobre canto llano}
+
   \chapter{De la seconda maniera di sonare il Violone insieme col Cimbalo, ch'e gia sopra del canto piano}
     \input{page058.tex}
+    
 	\section{Recercada primera}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r1.ly}
 	\section{Recercada secunda}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r2.ly}
-	\section{Recercada tercera}
+	\section{Recercada terza}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r3.ly}
 	\section{Recercada quarta}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r4.ly}
@@ -46,39 +45,42 @@
 	\section{Recercada sesta}
 		\lilypondfile[quote,noindent]{lys/bk2_c2_r6.ly}
 	
-  % à vérifier 
-	%\chapter{La tercera manera de taner el Violon con el Cymbalo que es sobre cosas compuestas}
    \chapter{La terza maniera di sonar il Violone col Cimbalo, che sara sopra le compositioni o piu voci}
      \input{page068.tex}
+     
 		\lilypondfile[quote,noindent]{lys/ofelici.ly}
-  
+     
+     %explications à la suite d'O Felici 
      \input{page073.tex}
-	\section{Recercada primera sobre O Felici Occhi Miei}
+     
+	\section{Recercata prima sopra O Felici Occhi Miei}
 		\lilypondfile[quote,noindent]{lys/ofelici_r1.ly}
-	\section{Recercada segunda sobre el mismo madrigal}
+	\section{Recercata seconda sopra il medesimo madrigale}
 		\lilypondfile[quote,noindent]{lys/ofelici_r2.ly}
-	\section{Recercada tercera sobre el mismo madrigal}
+	\section{Recercata terza sopra il medesimo madrigale}
 		\lilypondfile[quote,noindent]{lys/ofelici_r3.ly}
-     \input{page080.tex}
-	\section{Recercada quarta que es quinta boz sobre el mismo Madrigal}
+
+	\section{Recercata quarta che e quinta uo ce sopra il medesimo Madrigale}
 		\lilypondfile[quote,noindent]{lys/ofelici_r4.ly}
+  
+  \input{page080.tex}
 		
-      
-      
 	\chapter{Una canzon Francese Doulce Memoire}
 		\lilypondfile[quote,noindent]{lys/doulcememoire.ly}
-	\section{Recercada prima sopra Doulce Memoire}
+      
+	\section{Recercata prima sopra Doulce Memoire}
 		\lilypondfile[quote,noindent]{lys/doulcememoire_r1.ly}
-	\section{Recercada seconda sopra la detta canzone}
+	\section{Recercata seconda sopra la midesma cancione}
 		\lilypondfile[quote,noindent]{lys/doulcememoire_r2.ly}
-	\section{Recercada terza sopra la detta canzone}
+	\section{Recercata terza sopra la medesima canzone} %sic
 		\lilypondfile[quote,noindent]{lys/doulcememoire_r3.ly}
-	\section{Recercada quarta che e'una quinta voce sopra la detta canzone}
+	\section{Recercata quarta che e'una quinta voce sopra la medesima canzone}
 		\lilypondfile[quote,noindent]{lys/doulcememoire_r4.ly}
 		
   \input{page092.tex}    
       
-	\chapter{Dichiaratione per sonare sopre tenori}
+	\chapter{Dichiaratione per sonare sopre tenori} % à partir d'ici, ce n'est plus les mêmes noms de chapitres
+   
 	\section{Recercada prima sopra li detti tenori}
 		\lilypondfile[quote,noindent]{lys/bk2_c3_r1.ly}
 	\section{Recercada seconda sopra li detti tenori}
