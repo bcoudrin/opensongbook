@@ -30,6 +30,10 @@
   a8 g f e d c bes a
   g4 f8 e d2 d'4. e8 f e d c
   bes8 a bes c d c bes a
+  g2 g'4. a8
+  bes8 a g f e d e f
+  g8 f e d c bes a g f2 c''4. d8
+  ees8 d c bes a g a bes
 	\bar"||"
 }
 >>
