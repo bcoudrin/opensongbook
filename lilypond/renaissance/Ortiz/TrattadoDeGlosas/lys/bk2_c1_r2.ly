@@ -34,6 +34,11 @@
   bes8 a g f e d e f
   g8 f e d c bes a g f2 c''4. d8
   ees8 d c bes a g a bes
+  c8 bes a g f e d c
+  bes4 d4. c8 c bes16 c
+  d4 bes a2
+  g4 g'4. f8 fis e16 f
+  g4 e d2
 	\bar"||"
 }
 >>
