@@ -17,9 +17,8 @@
 	\newpage
 	\minitoc
 	
-	\chapter{Dechiaratione delle maniere che s'han da sonare col Violone, e col Cimbalo insieme}
-		\input{page050.tex}
-	
+	%% Page 50 : texte chapitre 1 et 2
+	\input{page050.tex}
 	\section{Recercata prima}
 		\lilypondfile[quote,noindent]{lys/bk2_c1_r1.ly}
 	\section{Recercada seconda}
