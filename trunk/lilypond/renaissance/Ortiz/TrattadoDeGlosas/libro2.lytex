@@ -76,6 +76,8 @@
 	\section{Recercada quarta che e'una quinta voce sopra la detta canzone}
 		\lilypondfile[quote,noindent]{lys/doulcememoire_r4.ly}
 		
+  \input{page092.tex}    
+      
 	\chapter{Dichiaratione per sonare sopre tenori}
 	\section{Recercada prima sopra li detti tenori}
 		\lilypondfile[quote,noindent]{lys/bk2_c3_r1.ly}
