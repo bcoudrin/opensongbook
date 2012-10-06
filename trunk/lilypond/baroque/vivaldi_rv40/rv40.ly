@@ -40,11 +40,11 @@
       \new Staff <<
         \set Staff.instrumentName = #"Viola"
         \set Staff.shortInstrumentName = #""
-        \relative c' {
+        \relative c {
           \tempo "Largo"
           \key e \minor
           \time 4/4 
-          \clef treble
+          \clef alto
           \partial 8
           \repeat volta 2 {
             e8                                 | 
@@ -111,10 +111,10 @@
   \score {
     \new StaffGroup <<
       \new Staff <<
-        \relative c' {
+        \relative c {
           \tempo "Allegro"
           \key e \minor
-          \clef alto
+          \clef bass
           \partial 8
           \repeat volta 2 {
             b8                                            |
@@ -225,11 +225,11 @@
   \score {
     \new StaffGroup <<
       \new Staff <<
-        \relative c' {
+        \relative c {
           \tempo "Largo"
           \key e \minor
           \time 12/8 
-          \clef alto
+          \clef bass
           \repeat volta 2 {
             b'8. [d32 (c) b8] b4 b8 e8. [g32 (fis) e8] e4 e8     | % 56
             dis8. [fis32 (e) dis8] dis4 dis8 e8. [d16 c8] b4 a8  | % 57
@@ -276,11 +276,11 @@
   \score {
     \new StaffGroup <<
       \new Staff <<
-        \relative c' {
+        \relative c {
           \tempo "Allegro"
           \time 3/8 
           \key e \minor
-          \clef treble
+          \clef alto
           \repeat volta 2 {
             e'8 b e                | % 66
             c16 (b) a8 c           | % 67
@@ -335,12 +335,12 @@
             dis8 fis a            | % 114
             c b a                 | % 115
             a4 g8                 | % 116
-            \clef alto
+            \clef bass
             b g e                 | % 117
             c b a                 | % 118
             c' a fis              | % 119
             dis cis b             | % 120
-            \clef treble
+            \clef alto
             dis'16 (e fis8) dis8  | % 121
             a16 (b c8) a8         | % 122
             dis16 (e fis8) dis8   | % 123
