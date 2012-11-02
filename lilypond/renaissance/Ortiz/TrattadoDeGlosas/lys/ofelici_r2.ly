@@ -54,7 +54,7 @@
 	a4 bes c d
 	c bes bes a8 g
 	a4 bes2 a4
-	bes4 r4 d4 c a bes bes a g8 f g a g4
+	bes2 r4 d4 c a bes bes a g8 f g a g4
 	f4. e8 d4 f
 	e8 f g f e d e4
 	d1 d2 r4 d'4 c a bes8 a g bes a2 g
