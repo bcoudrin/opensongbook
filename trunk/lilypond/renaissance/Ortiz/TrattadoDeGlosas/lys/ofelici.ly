@@ -38,7 +38,7 @@
 	\time 2/1
 	\clef alto
 	\key d \minor
-	r\breve d1 e2 g g f g g, d' d g,1 r2 g1 d'2 d c c bes g bes bes a1 g d'
+	r\breve d1 e2 g g f g g, d' d g,1 r1 g1 d'2 d c c bes g bes bes a1 g d'
 	ees2. d4 c2 bes a1 g2 g1 g2 a2. g4 f2 e f d'1 d2 ees2. bes4 d2 c bes bes bes bes a a
 	c1 bes2 bes f' f f d d1 bes bes2 g c2. bes4 a1
 	g2 bes bes bes c bes g d' d r4 g,4 a2 bes c a bes2. bes4 c2 d d c d d r2 bes2 c1 a a bes bes
@@ -59,6 +59,9 @@
 	d1 e2 g g fis g bes bes a bes2. a4 g2 bes2. a4 g1 f2 g1 r2 d2 e c d bes'2. a4 g1 f2 g1 g
 	g2. f4 e1 d bes2 c1 c2 d2. c4 bes2 a bes f'1 f2 g2. f4 f2 d f f f f f f
 	g2 g r2 bes bes bes a g f1 d ees2 ees ees1 d
+	d\breve r2 d2 e f g2. f4 e2 d e1 d2 d e f2. d4 g1 f2 g d e1 d2 d f d d d
+	c1 c a2 a' a a g1 f d2 r4 d4 e f g e f2 e d d c2. bes4 a1 g2 r4 d'4
+	e4 f g e f2 e d d c2. bes4 a2 a bes2. c4 d2 e1 d2 c1 b\breve\fermata
 	\bar"||"
 }
 }
@@ -74,6 +77,9 @@
 	r\longa r\breve g1 d'2 d d2. c4 bes2 g bes bes a1 g d d2 d ees2. f4 g2 g c,1 c d
 	g2 c,1 c2 f2. e4 d2 c bes\breve r\breve r2 bes2 bes bes f' f c4 d e f g2 bes bes bes f g
 	d1 g ees2. d4 c1 d
+	g1 r2 g2 f g c, d g1 r\longa r1 r2 d2 g1 c,2 c d1 bes bes2 bes c1 c d2. e4 f2 f
+	g2 ees f1 bes, r2 r4 g'4 f d ees c d2 bes c c d1 g r2 r4 g4 f d ees c d2 bes
+	c2 c d d r2 g1 c, bes2 c1 g'\breve\fermata
 	\bar"||"
 }
 }
