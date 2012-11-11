@@ -47,12 +47,8 @@
           \repeat volta 2 {
             <d d,>4 d'-2                     | % 1
             <a, a,> \clef alto cis'8-3[ a-0] | % 2
-            
-            e' e e e e\trill dis r b           | % 1
-            fis' fis fis fis fis\trill e g b,  | % 2
-            b ais r e' d cis16 b ais8 b16 cis  | % 3
-            e,4. e'8 ( dis eis fis) b,8        | % 4
-            cis4. b8 b4.                         % 5
+            f'4-+-      2 \[ d,-1             | % 3
+            e'-2 \] \clef bass cis,8 [a]     | % 4 
           }
           \repeat volta 2 {
             fis8                                       |
