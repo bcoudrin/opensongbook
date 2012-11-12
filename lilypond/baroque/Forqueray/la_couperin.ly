@@ -53,6 +53,14 @@
             <f d>8\stopped[ \clef alto d' f g]                                                           | % 6
             a8\stopped[ d,-0 <c fis,> d-0]                                                               | % 7
             <bes g>8[ d-0 e f]                                                                           | % 8
+            g8\stopped[ c, <bes e,> c]                                                                   | % 9
+            \clef bass <a f>4 f,-3                                                                       | % 10
+            g'4-4 e,8_\markup{\bold \italic t}[ c_\markup{\bold \italic t}]                              | % 11
+            a'8[ f'-1 c'-3 d-0]                                                                          | % 12
+            bes8\stopped [ g,] \clef alto 
+            << {\voiceOne d''8[ e-2]} \new Voice {\voiceTwo bes8[ c16-3( bes-1)]} >> \oneVoice           | % 13
+            << {\voiceOne f'4-4\stopped}
+            \new Voice {\voiceTwo a,8[ \clef bass f,-2]} >> \oneVoice f'4-4\stopped                      | % 14
           }
         }
       >>
@@ -64,8 +72,13 @@
           \clef bass
           \key a \minor 
           \time 2/4
-          
           \repeat volta 2 {
+            <d d,>4 r  | % 1
+            <a a,>4 r  | % 2
+            d, d'      | % 3
+            a cis8[ a] | % 4
+            f'4. e8    | % 5
+            d4 cis     | % 6
           }
         }
       >>
