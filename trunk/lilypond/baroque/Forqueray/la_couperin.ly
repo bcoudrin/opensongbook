@@ -45,24 +45,14 @@
           \time 2/4 
           \clef bass
           \repeat volta 2 {
-            <d d,>4 d'-2                     | % 1
-            <a, a,> \clef alto cis'8-3[ a-0] | % 2
-            f'4-+-      2 \[ d,-1             | % 3
-            e'-2 \] \clef bass cis,8 [a]     | % 4 
-          }
-          \repeat volta 2 {
-            fis8                                       |
-            b8 b b b b\trill ais r8 fis                | % 6
-            cis' cis cis cis cis\trill b fis' (b,)     | % 7
-            b8 a e' (a,) a gis16 (a b c d8)            | % 8
-            d8 c f f f e~ e16 f d c                    | % 9
-            b16 a32 g c16 f d8. c16 c4 r8 e            | % 10
-            dis dis dis e16 fis g8 e c4~               | % 11
-            c16 a' fis dis b4~ b16 g' e cis a4~        | % 12
-            a16 fis' dis b g'4. fis16 e d8.\trill e16  | % 13
-            e2~ e16 e fis g fis8 e                     | % 14
-            dis16 cis b8 r a g b16 e fis,8. e16        | % 15
-            e16 e' fis cis dis8. e16 e2\fermata          % 16
+            <d d,>4 d'-2                                                                                 | % 1
+            <a, a,> \clef alto cis'8-3_\markup{\bold \italic p}[ a-0]                                    | % 2
+            f'4-2\stopped d,-1 e-2 \clef bass cis8_\markup{\bold \italic t}[ a_\markup{\bold \italic t}] | % 3
+            f'8-1[ a-0 b cis]                                                                            | % 4
+            d8\stopped[ a-0 \set fingeringOrientations = #'(left) <g e-4> a-0]                           | % 5
+            <f d>8\stopped[ \clef alto d' f g]                                                           | % 6
+            a8\stopped[ d,-0 <c fis,> d-0]                                                               | % 7
+            <bes g>8[ d-0 e f]                                                                           | % 8
           }
         }
       >>
@@ -76,26 +66,6 @@
           \time 2/4
           
           \repeat volta 2 {
-            r8                              |
-            r4 r8 b8 b' b b b               | % 1
-            b8\trill a r8 a g g g g         | % 2
-            fis4 r8 fis b,16 cis d e fis4~  | % 3
-            fis8 ais, cis fis b4 ais8 b     | % 4
-            fis4 fis, b4.                     % 5
-          }
-          \repeat volta 2 {
-            r8                         |
-            r8 r4 b8 fis' fis fis fis  | % 6
-            fis8\trill e r8 e d4. d8   | % 7
-            c4. d8 e4. e8              | % 8
-            a4. a8 g4 f                | % 9
-            g8 e16 f g8 g, c c c c     | % 10
-            c4 b8 a g4 r8 e'           | % 11
-            dis4. d8 cis4. c8          | % 12
-            b4 e ais, b                | % 13
-            e8 d cis b ais4. ais8      | % 14
-            b cis dis b e,4 b'         | % 15
-            e8 a b b, e,2\fermata        % 16
           }
         }
       >>
