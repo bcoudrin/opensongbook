@@ -65,6 +65,29 @@
         }
       >>
       
+      \new FiguredBass \figuremode {
+          \set figuredBassAlterationDirection = #LEFT
+          \set figuredBassPlusDirection = #LEFT
+          \override VerticalAxisGroup #'minimum-Y-extent = #'()
+          \override BassFigureAlignment #'stacking-dir = #UP
+          \override FiguredBass.BassFigure #'font-size = #-2
+            s2                | % 1
+            <4>4 <_+>         | % 2
+            s2                | % 3
+            <4>4 <5/>         | % 4
+            <5+>4 <6>8 <6\\>8 | % 5
+            s4 <5/>           | % 6
+            s2                | % 7
+            <4/>4 s4          | % 8
+            <_->4 s4          | % 9
+            <7->4 s4          | % 10
+            s2                | % 11
+            <4>4 <5/>         | % 12
+            <7 9> <8>         | % 13
+            <_- 7> s8 <6\\>   | % 14
+            s4 <6>            | % 15
+        }
+      
       \new Staff <<
         %\set Staff.instrumentName = #"Basso"
         %\set Staff.shortInstrumentName = #""
@@ -73,12 +96,21 @@
           \key a \minor 
           \time 2/4
           \repeat volta 2 {
-            <d d,>4 r  | % 1
-            <a a,>4 r  | % 2
-            d, d'      | % 3
-            a cis8[ a] | % 4
-            f'4. e8    | % 5
-            d4 cis     | % 6
+            <d d,>4 r   | % 1
+            <a a,>4 r   | % 2
+            d, d'       | % 3
+            a cis8[ a]  | % 4
+            f'4. e8     | % 5
+            d4 cis      | % 6
+            d d'        | % 7
+            c, fis8[ d] | % 8
+            g4 bes      | % 9
+            c, e8[ c]   | % 10
+            f4 f,       | % 11
+            c' e,8[ c]  | % 12
+            a'4 f'      | % 13
+            g, g'       | % 14
+            f, a8[ f]   | % 15
           }
         }
       >>
