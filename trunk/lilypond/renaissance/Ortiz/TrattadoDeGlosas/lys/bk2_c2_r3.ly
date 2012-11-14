@@ -23,7 +23,8 @@
 \new Staff \with {
 %	\remove "Time_signature_engraver"
 }
-\relative c' {
+\relative c {
+	d4 f4. g8 a4. g8 f e f d f g a4 a c4. d8 e d c d e c e fis g4 g, bes4. c8 d c bes a bes g bes c
 	\bar"||"
 }
 >>
