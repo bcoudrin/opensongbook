@@ -24,6 +24,8 @@
 %	\remove "Time_signature_engraver"
 }
 \relative c {
+	\clef tenor
+	\key d \minor
 	d4 f4. g8 a4. g8 f e f d f g a4 a c4. d8 e d c d e c e fis g4 g, bes4. c8 d c bes a bes g bes c
 	d4 d, f4. e8 d c d e f d f g a4. bes8 c bes a g a4 g4. fis16 e f4 g d' bes d4. c8 bes a bes4 g r d' bes d4. c8 bes a
 	bes8 a g f e d e f g a g4. f8 g16 f e d e8 f g e f4 f' d f4. e8 d c16 bes a4 f2 c'4 a c4. bes8 a g a bes c bes16 a
