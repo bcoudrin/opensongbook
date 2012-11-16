@@ -23,7 +23,7 @@
 \new Staff \with {
 %	\remove "Time_signature_engraver"
 }
-\relative c' {
+\relative c {
 	\clef tenor
 	\key d \minor
 	d4. e8 f g a bes c4 c,4. d8 e f g a bes c d4 d,2 e4 f g a4. bes8 c d e f g4 g,4. a8 bes c
