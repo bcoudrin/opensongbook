@@ -18,7 +18,7 @@
 \new Voice = "cantus" {
 \relative c' {
 	\time 8/1
-	\clef treble
+	\clef soprano
 	f\breve f2 e d1 cis r2 d2 f2. g4 a2 f e a1 gis2 a1 f f2 f g g e1 f1 e1 r1 a1 a2 a a1. gis2 a c b a1 gis2 a\breve
 	f\breve f2 e d1 cis r2 d2 f2. g4 a2 f e a1 gis2 a1 f f2 f g g e1 f1 e1 r1 a1 a2 a a1. gis2 a c b a1 gis2
 	a\breve f1 g2 g f1. f2 e c d d cis1 e\breve e2 f g g g b2. a4 a1 gis2
@@ -36,7 +36,7 @@
 \new Voice = "tenor" {
 \relative c' {
 	\time 8/1
-	\clef alto
+	\clef tenor
 	a\breve a2 g f1 e d d'1. d2 c b4 a b1 a a a2 a bes4 a g f g1 f g c c2 c c1 d c2 b a1 g2 a b1 a\breve
 	a\breve a2 g f1 e d d'1. d2 c b4 a b1 a a a2 a bes4 a g f g1 f g c c2 c c1 d c2 b a1 g2 a
 	b1 a\breve a1 bes2 bes a1 f g2 a d,d e1 c'\breve c2 a g b b b c d b1
