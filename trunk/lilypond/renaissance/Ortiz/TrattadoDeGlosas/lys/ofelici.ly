@@ -47,32 +47,38 @@
       \time 4/2
       \override Voice.NoteHead #'style = #'default
       \override Voice.Rest #'style = #'default
+      %\lyricmode {
+      %  _1 _ _
+      %  O fe2 -- li2 -- cioc2. -- chi4 miei2 fe2 -- li2 -- ci2
+      %  voi1 __ _ _ _ _2
+      %  O2 fe2 -- li2 -- cioc2. -- chi4 miei2
+      %  fe4 -- __ _ _ _ _ _ li2 -- __ _ _ _ _ ci2
+      %  voi1
+      %  \skip 2*7
+      %  Che1 se2 -- te2. Car'4 al2 mio2 sol,2
+      %  per2 -- che2 sem2 -- bianz'2 ha2 -- ve1 -- te2
+      %  Degl'2 oc2 -- chi2 che2 gli2 fur2
+      %  si2 __ _ _ dol2 cie2 re2 __ _ _ _ i1
+      %  _2 Voi2 ben voi se -- te voi,2.
+      %  voi4 ben2 voi se -- te voi,
+      %  voi2 fe -- li -- ci,2
+      %  ed2 i1 -- o,2
+      %  ed2 i1 -- o,2
+      %  Io2 non, che per que -- tar1
+      %  vo1 -- stro4 -- __ _ _ _ _ _
+      %  de2 -- __ _ si2 -- __ _ _ o2
+      %  \skip 4*1
+      %  Corr'4 a mi -- rar l'on -- de2 mi2  strug1 -- go1 po1 i,2
+      %  \skip 4*1
+      %  Corr'4 a mi -- rar l'on -- de2 mi2  strug2 -- go2 po1 i,2
+      %  mi2 -- __ _
+      %  strug2 -- __ _ _ _ go2 po1 -- i
+      %}
       \lyricmode {
-        _1 _ _
-        O fe2 -- li2 -- cioc2. -- chi4 miei2 fe2 -- li2 -- ci2
-        voi1 __ _ _ _ _2
-        O2 fe2 -- li2 -- cioc2. -- chi4 miei2
-        fe4 -- __ _ _ _ _ _ li2 -- __ _ _ _ _ ci2
-        voi1
-        \skip 2*7
-        Che1 se2 -- te2. Car'4 al2 mio2 sol,2
-        per2 -- che2 sem2 -- bianz'2 ha2 -- ve1 -- te2
-        Degl'2 oc2 -- chi2 che2 gli2 fur2
-        si2 __ _ _ dol2 cie2 re2 __ _ _ _ i1
-        _2 Voi2 ben voi se -- te voi,2.
-        voi4 ben2 voi se -- te voi,
-        voi2 fe -- li -- ci,2
-        ed2 i1 -- o,2
-        ed2 i1 -- o,2
-        Io2 non, che per que -- tar1
-        vo1 -- stro4 -- __ _ _ _ _ _
-        de2 -- __ _ si2 -- __ _ _ o2
-        \skip 4*1
-        Corr'4 a mi -- rar l'on -- de2 mi2  strug1 -- go1 po1 i,2
-        \skip 4*1
-        Corr'4 a mi -- rar l'on -- de2 mi2  strug2 -- go2 po1 i,2
-        mi2 -- __ _
-        strug2 -- __ _ _ _ go2 po1 -- i
+      	_1 _ _
+      	O felici occhi1 miei2 felice2 _1 voi _ _ _ ii1
+      	_ _ _ _ _ _ _ _
+      	\skip 2*7
       }
     >>
     \new Voice  = "altusNotes" <<
