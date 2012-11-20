@@ -13,7 +13,7 @@
 	\remove "Time_signature_engraver"
 }
 \relative c' {
-	\time 4/2
+	\time 8/1
 	\clef soprano
 	f\breve f2 e4 d8 c d4 c d2 cis1 r2 d2 f4. e8 d e f g a2 f e4 f8 g a f g a gis4 a2 g4 a1 f f4. e8 f g a f
 	g4. f8 g f e d e d c d e f g e f4 e f2 e1 r a a2 a a1 a4 gis8 f g a f g a4. b8 c4 b8 a
