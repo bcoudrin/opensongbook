@@ -58,15 +58,20 @@
 
 <<
 \new Staff \with {
-	\remove "Time_signature_engraver"
+	%\remove "Time_signature_engraver"
 }
 \relative c' {
-	\time 4/1
+	\time 2/1
 	\clef alto
 	\key d \minor
 	r2 d2. c4 bes2 a f4 g a bes c a bes2 d2. c4 bes2 a d,4 e fis g a fis g2 d'2. c4 bes2 a f4 g a bes c a bes2 g r2 a
 	\clef tenor bes2 g bes2. c4 d2 bes d2. c8 bes a4 g a bes c2 a bes g bes2. c4 d2. c8 bes a2 d bes2. c4 d2 bes c4 bes a g a bes c a bes2 c4 bes
-	\clef bass a4
+	\clef bass a4 g fis e d c b c d c b a g2 d''1 bes2 c2. bes4 a g a2 g bes1 g2 a2. g4 fis e f2 g d'1 bes2 c2. bes4 a g a2
+	\clef tenor g1 r2 d1 g bes d2. c4 bes2 a c2. bes4 a2 g bes1 d a d bes2. c4 d bes c2 c2. bes4 c a bes2 c4 bes a g a2 g d'2. c4 bes a
+	bes2 d2. c4 bes2 a c2. bes4 a g8 a bes2 d2. c4 bes2 a a2. g4 a fis4 g a bes c d2 bes c c2. bes4 c a bes2 g r2 d'1 g,2 bes2. c4
+	d2 bes2. c4 d bes c2 c1 a2 bes2. c4 d2 bes a d1 a2 bes2. c4 d2 bes c c1 a2 bes c a \clef bass d,1 g,4 a bes c d2 g, d''1 g,2
+	\time 12/8 a4. bes8 c4 f,4. g8 a4 bes4. c8 d4 bes g bes a4. g8 a4 fis4. e8 f4 \time 2/1 g2. a4 bes c d bes c bes a g a bes c a
+	bes4 bes c bes a g fis e d c b c d c bes a g\breve\fermata
 	\bar"||"
 }
 >>
