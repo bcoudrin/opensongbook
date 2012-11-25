@@ -14,45 +14,66 @@
       \new Staff <<
         \set Staff.instrumentName = #"Violino grosso"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c'' {
+          \time 3/4
+          \tempo "Allegro"
           \clef treble
+          r8 a [a' a a a]                        | % 1
+          a8 [(gis16) a] b [a gis fis] e [d c b] | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Viola"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c'' {
+          \time 3/4 
           \clef alto
+          c8 [d e d e c]       | % 1
+          b8 [b] e, [e] b' [b] | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Flauto dolce"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c'' {
+          \time 3/4 
           \clef treble
+          r8 a [a' a a a]                        | % 1
+          a8 [(gis16) a] b [a gis fis] e [d c b] | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Viola da gamba"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c' {
+          \time 3/4 
           \clef alto
+          r8 a [a' a a a]                    | % 1
+          a8 [(gis16) a] b8 [e,8.] d16 [c b] | % 2
         }
       >>
+      
+      \new FiguredBass \figuremode {
+          \set figuredBassAlterationDirection = #LEFT
+          \set figuredBassPlusDirection = #LEFT
+          \override VerticalAxisGroup #'minimum-Y-extent = #'()
+          \override BassFigureAlignment #'stacking-dir = #UP
+          \override FiguredBass.BassFigure #'font-size = #-2
+          s4 <6>8 s4.       | % 1
+          <4>8 <_+> <6> s4. | % 2
+      }
       
       \new Staff <<
         \set Staff.instrumentName = #"Fondamento"
         \set Staff.shortInstrumentName = #""
-        \relative c {
+        \relative c' {
           \clef bass
-          \time 4/4
+          \time 3/4
+          a8 [b c b c a]         | % 1
+          e'8 [e,] gis [b gis e] | % 2
         }
       >>
     >>

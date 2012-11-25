@@ -30,6 +30,8 @@
           \clef alto
           a8 [a,] r gis' a [a,] r gis'                                       | % 1
           a8 [a,] r16 a' [f16. d32] b'16. [b32 b16. b32] b16. [g32 e16. d32] | % 2
+          e16. [gis32 a16. a,32] d16. [d32 d16. d32] \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} | % 3
+          \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] c16. [e32 a16. c,32] b8.\trill [a16] | % 4
         }
       >>
       
