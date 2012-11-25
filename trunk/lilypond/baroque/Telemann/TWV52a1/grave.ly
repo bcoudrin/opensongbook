@@ -19,6 +19,8 @@
           \clef treble
             r16 e [a16. b32] c8 [b\trill] a16. [e'32 a,16. b32] c8 [b\trill]                   | % 1
             a16. [e'32 c16. a32] f'16. [f32 f16. f32] f16. [d32 b16. g32] e'16. [e32 e16. e32] | % 2
+            e16. [gis32 a16. a,32] d16. [d32 d16. d32] \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} | % 3
+           \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] c16. [e32 a16. c,32] b8.\trill [a16] | % 4
         }
       >>
       
@@ -30,8 +32,8 @@
           \clef alto
           a8 [a,] r gis' a [a,] r gis'                                       | % 1
           a8 [a,] r16 a' [f16. d32] b'16. [b32 b16. b32] b16. [g32 e16. d32] | % 2
-          e16. [gis32 a16. a,32] d16. [d32 d16. d32] \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} | % 3
-          \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] c16. [e32 a16. c,32] b8.\trill [a16] | % 4
+          a'16. [a32 a16. a32] a16. [cis32 d16. d,32] gis8 r gis r | % 3
+          gis4 r16 gis [a16. b32] e,8 [e16. f32] e8 [e] | % 4
         }
       >>
       
@@ -43,6 +45,8 @@
           \clef treble
           a8 [a,] r gis' a [a,] r gis'                                       | % 1
           a8 [a,] r16 a' [f16. d32] b'16. [b32 b16. b32] b16. [g32 e16. d32] | % 2
+          a'16. [a32 a16. a32] a16. [cis32 d16. d,32] gis8 r gis r | % 3
+          gis4 r16 gis [a16. b32] e,8 [e16. b'32] gis8.\trill [a16] | % 4
         }
       >>
       
@@ -54,6 +58,8 @@
           \clef alto
             r16 e [a16. b32] c8 [b\trill] a16. [e'32 a,16. b32] c8 [b\trill]                   | % 1
             a16. [e'32 c16. a32] f'16. [f32 f16. f32] f16. [d32 b16. g32] e'16. [e32 e16. e32] | % 2
+            e16. [gis32 a16. a,32] d16. [d32 d16. d32] \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} | % 3
+           \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] c16. [e32 a16. c,32] b8.\trill [a16] | % 4
         }
       >>
       
@@ -65,6 +71,8 @@
           \override FiguredBass.BassFigure #'font-size = #-2
           s4 <4 6>8 <2 4\+> <6> s <4 6> <4\+> | % 1
           <6>8 s4. <7>8 s <7> s               | % 2
+          <7>8 s <5 7> s <_+ 7> s4. | % 3
+          <_+ 7>4 
       }
       
       \new Staff <<
