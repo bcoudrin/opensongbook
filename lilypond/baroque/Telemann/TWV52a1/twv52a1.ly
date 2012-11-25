@@ -33,7 +33,6 @@
     tagline = ""
     copyright = \markup { "Copyright : " \char ##x00A9 " 2012 Benjamin Coudrin. Copyleft : released under WTFPL v2.0 License" }
   }
-
   
   \include "grave.ly"
   \include "allegro.ly"

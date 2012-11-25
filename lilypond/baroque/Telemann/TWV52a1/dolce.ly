@@ -11,48 +11,66 @@
 
 \score {
     \new StaffGroup <<
-      \new Staff <<
-        \set Staff.instrumentName = #"Violino grosso"
-        \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
-          \clef treble
-        }
-      >>
+      %\new Staff <<
+      %  \set Staff.instrumentName = #"Violino grosso"
+      %  \set Staff.shortInstrumentName = #""
+      %  \relative c {
+      %    \time 4/4 
+      %    \clef treble
+      %  }
+      %>>
       
-      \new Staff <<
-        \set Staff.instrumentName = #"Viola"
-        \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
-          \clef alto
-        }
-      >>
+      %\new Staff <<
+      %  \set Staff.instrumentName = #"Viola"
+      %  \set Staff.shortInstrumentName = #""
+      %  \relative c {
+      %    \time 4/4 
+      %    \clef alto
+      %  }
+      %>>
       
       \new Staff <<
         \set Staff.instrumentName = #"Flauto dolce"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c'' {
+          \tempo "Dolce"
+          \time 6/8
+          \key f \major
           \clef treble
+          f4 g8 f8 [g16 e f8] | % 1
+          c8 [d e] e4 (f8)    | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Viola da gamba"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c' {
+          \time 6/8
           \clef alto
+          a4 b8 a8 [c16 g a8] | % 1
+          a8 b g a4 (a)       | % 2
         }
       >>
+      
+      \new FiguredBass \figuremode {
+          \set figuredBassAlterationDirection = #LEFT
+          \set figuredBassPlusDirection = #LEFT
+          \override VerticalAxisGroup #'minimum-Y-extent = #'()
+          \override BassFigureAlignment #'stacking-dir = #UP
+          \override FiguredBass.BassFigure #'font-size = #-2
+          <\markup{"Tasto Solo"}>4. | % 1
+          s4.                       | % 2
+      }
       
       \new Staff <<
         \set Staff.instrumentName = #"Fondamento"
         \set Staff.shortInstrumentName = #""
-        \relative c {
+        \relative c, {
           \clef bass
-          \time 4/4
+          \time 6/8
+          f8 [(f f)] f [(f f)] | % 1
+          f8 [(f f)] f [(f f)] | % 2
         }
       >>
     >>

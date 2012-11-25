@@ -14,45 +14,66 @@
       \new Staff <<
         \set Staff.instrumentName = #"Violino grosso"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c'' {
+          \tempo "Allegro"
+          \time 2/4 
           \clef treble
+          a8 [e'] e4         | % 1
+          b16 [c d c] c8 [a] | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Viola"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c' {
+          \time 2/4 
           \clef alto
+          c8 [c' a a~]    | % 1
+          a8 [gis a e] | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Flauto dolce"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c''' {
+          \time 2/4 
           \clef treble
+          a8 [e'] e4         | % 1
+          b16 [c d c] c8 [a] | % 2
         }
       >>
       
       \new Staff <<
         \set Staff.instrumentName = #"Viola da gamba"
         \set Staff.shortInstrumentName = #""
-        \relative c {
-          \time 4/4 
+        \relative c' {
+          \time 2/4 
           \clef alto
+          a8 [e'] e4         | % 1
+          b16 [c d c] c8 [a] | % 2
         }
       >>
+      
+      \new FiguredBass \figuremode {
+          \set figuredBassAlterationDirection = #LEFT
+          \set figuredBassPlusDirection = #LEFT
+          \override VerticalAxisGroup #'minimum-Y-extent = #'()
+          \override BassFigureAlignment #'stacking-dir = #UP
+          \override FiguredBass.BassFigure #'font-size = #-2
+          s4 <6>            | % 1
+          <5 6>8 <_+> s <6> | % 2
+      }
       
       \new Staff <<
         \set Staff.instrumentName = #"Fondamento"
         \set Staff.shortInstrumentName = #""
         \relative c {
           \clef bass
-          \time 4/4
+          \time 2/4
+          a4 c8 [a]       | % 1
+          d8 [e] a, [c'] | % 2
         }
       >>
     >>
