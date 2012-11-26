@@ -21,6 +21,8 @@
             a16. [e'32 c16. a32] f'16. [f32 f16. f32] f16. [d32 b16. g32] e'16. [e32 e16. e32] | % 2
             e16. [gis32 a16. a,32] d16. [d32 d16. d32] \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} | % 3
            \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] c16. [e32 a16. c,32] b8.\trill [a16] | % 4
+           \times 4/6 {d,16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] | % 5
+           \times 2/3 {c16 [e e]} \times 2/3 {a [e e]} \times 2/3 {c' [e, e]} \times 2/3 {e' [e, e]} c'16. [ e32 a16. d,32] b8.\trill a16 | % 6
         }
       >>
       
@@ -34,6 +36,8 @@
           a8 [a,] r16 a' [f16. d32] b'16. [b32 b16. b32] b16. [g32 e16. d32] | % 2
           a'16. [a32 a16. a32] a16. [cis32 d16. d,32] gis8 r gis r | % 3
           gis4 r16 gis [a16. b32] e,8 [e16. f32] e8 [e] | % 4
+          b8 r b r b4 r16 d [c16. b32] | % 5
+          a8 [a] e' [e] e [e16. d32] e,8 [b'] | % 6
         }
       >>
       
@@ -47,6 +51,8 @@
           a8 [a,] r16 a' [f16. d32] b'16. [b32 b16. b32] b16. [g32 e16. d32] | % 2
           a'16. [a32 a16. a32] a16. [cis32 d16. d,32] gis8 r gis r | % 3
           gis4 r16 gis [a16. b32] e,8 [e16. b'32] gis8.\trill [a16] | % 4
+          gis8 r gis r b4 r16 gis [a16. b32] | % 5
+          e,8-. [a-. c-. e-.] c16. [e,32 a16. b32] gis8.\trill [a16] | % 6
         }
       >>
       
@@ -60,6 +66,8 @@
             a16. [e'32 c16. a32] f'16. [f32 f16. f32] f16. [d32 b16. g32] e'16. [e32 e16. e32] | % 2
             e16. [gis32 a16. a,32] d16. [d32 d16. d32] \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} | % 3
            \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] c16. [e32 a16. c,32] b8.\trill [a16] | % 4
+           \times 4/6 {d16-. [gis (a b a b)]} \times 4/6 {d,16-. [gis (a b a b)]} \times 2/3 {d,16 [(f e) } f8] r16 f [e16. d32] | % 5
+           c8 [c'] a [b] e, [e16. f32] b,8.\trill [a16] | % 6
         }
       >>
       
@@ -72,7 +80,9 @@
           s4 <4 6>8 <2 4\+> <6> s <4 6> <4\+> | % 1
           <6>8 s4. <7>8 s <7> s               | % 2
           <7>8 s <5 7> s <_+ 7> s4. | % 3
-          <_+ 7>4 
+          <_+ 7>4 s s8 <6> <_+> s | % 4
+          <4>4 s <7> s16 <_+>8. | % 5
+          s4. <6>8 s <6> <_+> s | % 6
       }
       
       \new Staff <<
@@ -83,6 +93,10 @@
           \time 4/4
           a8 [c16. d32] e8 [d] c8 [c'16. d32] e8 [d] | % 1
           c8 [a] d[d,] g [g] c, [c]                  | % 2
+          f8 [f] b, [b] e r e r | % 3
+          e4 r16 e [fis16. gis32] a8 [c,16. d32] e8 [e,] | % 4
+          f8 r f' r gis,4 r16 e'16 [fis16. gis32] | % 5
+          a8 [a,] a' [gis] a [c,16. d32] e8 [e,] | % 6
         }
       >>
     >>
