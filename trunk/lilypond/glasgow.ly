@@ -2,6 +2,12 @@
 \paper{paper-height = 6\cm}
 
   mus = {
+    \chords {
+      \frenchChords
+      \repeat volta 2 {a1:m f g s a:m f g s}
+      \repeat volta 2 {a1:m s g s a:m s f g}
+    }  
+  
     \relative c'
     {
       \time 4/4 \key d \minor
