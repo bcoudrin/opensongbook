@@ -3,7 +3,13 @@
 
 {
   
-<<    
+<<
+  \chords {
+    \frenchChords
+    \repeat volta 2 {e1:m s2 d e1:m d}
+    d2 a d a d a g a d a d a d a g d
+  }  
+  
   \relative c'
   { 
     \time 4/4 \key d \major

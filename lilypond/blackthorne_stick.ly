@@ -6,10 +6,10 @@
 <<
   \chords {
     \frenchChords
-    \repeat volta 2 {\partial 8 r8 g4. e4.:m g4. c4. g4. d4.:7
-		     e4.:m d4. g4. a4.:m g4. e4.:m g4. d4.:7 g4. r4}
-    \repeat volta 2 {\partial 8 r8 e4.:m g4. e4.:m g4. g4. c4.
-		     e4.:m d4. g4. a4.:m g4. e4.:m g4. d4.:7 g4. r4}
+    \repeat volta 2 {\partial 8 s8 g4. c4. g4. d4. g4. s4.
+		     s4. s4. g4. c4. g4. d4. g4. d4.:7 s4. g4}
+    \repeat volta 2 {\partial 8 s8 g4. s4. s4.:m s4. s4. s4.
+		     d4. s4. g4. c4. g4. d4. g4. d4.:7 g4. r4}
   }
       
   \relative c'

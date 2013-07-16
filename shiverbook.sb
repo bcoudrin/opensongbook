@@ -1,6 +1,6 @@
 {
 "template" : "ancient.tmpl",
-"author" : "Benjamin Coudrin",
+"author" : "Shiver Me Timbers",
 "bookoptions" : [
     "lilypond"
   ],
@@ -8,15 +8,15 @@
 "footer" : "\\begin{flushleft}Shiver Me Timbers\\end{flushleft}",
 "indexbgcolor" : "#BA8D5A",
 "license" : "\\input{license.tex}",
-"mail" : "benjamin.coudrin@gmail.com",
+"mail" : "contact@shivermetimbers.eu",
 "mainfontsize" : "10",
 "notebgcolor" : "#FFFDB3",
 "picture" : "shiver",
 "picturecopyright" : "WTFPL - Do What The Fuck You Want Public License",
 "songnumberbgcolor" : "#BA8D5A",
 "title" : "Shiver Me Timbers",
-"version" : "1.0.0",
-"web" : "http://www.myspace.com/shivermetimbersofficial",
+"version" : "1.1.0",
+"web" : "http://www.shivermetimbers.eu",
 "songs" : [
     "Marc_Gunn/The_Leprechaun.sg",
     "Jean_Schwartz/My_Irish_Molly_O.sg",

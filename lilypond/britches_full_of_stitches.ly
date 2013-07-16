@@ -6,8 +6,8 @@
 <<
   \chords {
     \frenchChords
-    \repeat volta 2 {a4 r4 r2 r2 e4 r4 a4 r4 r2 r2 d4 r4}
-    \repeat volta 2 {a4 r4 r2 r2 e4 r4 a4 r4 r2 r2 d4 r4}
+    \repeat volta 2 {a4 s4 s2 s2 g4 s4 a4 s4 s2 s2 d4 s4}
+    \repeat volta 2 {a4 s4 s2 s2 g4 s4 a4 s4 s2 s2 d4 s4}
   }
   
   \relative c'
