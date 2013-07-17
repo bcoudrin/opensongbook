@@ -1,5 +1,5 @@
 \include "header"
-\paper{paper-height = 5\cm}
+\paper{paper-height = 5.5\cm}
 
 {
   
@@ -7,7 +7,7 @@
   \chords {
     \frenchChords
     \repeat volta 2 {e1:m s2 d e1:m d}
-    d2 a d a d a g a d a d a d a g d
+    g1 d g d g d s s
   }  
   
   \relative c'

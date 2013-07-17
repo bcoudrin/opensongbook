@@ -1,9 +1,14 @@
 \include "header"
-\paper{paper-height = 7\cm}
+\paper{paper-height = 8\cm}
 
 {
   
 <<    
+	\chords {
+		\frenchChords
+		\repeat volta 2 {e2.:m s4. d e:m s s d e:m s s d g s d s}
+		e2.:m s4. d e:m s s d e:m s s d g s d s e:m s s d e:m s d s g s d s g s d s
+	}
   \relative c'
   {
     \time 6/8 \key b \minor

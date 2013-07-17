@@ -3,7 +3,12 @@
 
 {
   
-<<    
+<<
+	\chords {
+		\frenchChords
+		\repeat volta 2 {a2 s s e a s e a}
+		\repeat volta 2 {a s s e a s e a}
+	}    
   \relative c'
   {
     \time 2/4 \key a \major

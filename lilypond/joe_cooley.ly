@@ -4,6 +4,12 @@
 {
   
 <<
+	\chords {
+		\frenchChords
+		\repeat volta 2 {\partial 4 s4 e1:m s d s e:m s d s2.}
+		\repeat volta 2 {\partial 4 s4 e1:m s d s e:m s d s2.}
+		}
+
   \relative c'
   {
     \time 4/4 \key e \minor

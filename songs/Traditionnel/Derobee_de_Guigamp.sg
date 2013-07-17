@@ -1,6 +1,7 @@
 \selectlanguage{english}
-\songcolumns{2}
-\beginsong{Dérobée de Guigamp}[by=Traditionnel]
+\songcolumns{1}
+\beginsong{Dérobée de Guingamp}[by=Traditionnel]
 
+\lilypond{derobee_guigamp}
 
 \endsong
