@@ -4,6 +4,11 @@
 {
   
 <<    
+	\chords {
+		\frenchChords
+		\repeat volta 2 {a2 s e s a s e} \alternative {{a2}{a2}}
+		\repeat volta 2 {a2 s e s a s e} \alternative {{a2}{a2}}
+	}
   \relative c'
   {
     \time 2/4 \key a \major

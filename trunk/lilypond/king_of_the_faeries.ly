@@ -1,9 +1,17 @@
 \include "header"
-\paper{paper-height = 9\cm}
+\paper{paper-height = 9\cm
+		paper-width = 8.5\cm
+		line-width = 8\cm}
 
 {
   
 <<    
+	\chords {
+		\frenchChords
+		\repeat volta 2 {\partial 4 s4 e1:m g e:m d e:m g e2:m g e2.:m}
+		\repeat volta 2 {\partial 4 s4 e1:m g e:m d e:m g e2:m d e1:m
+		                 g2 d e1:m g s e:m s s2 g e2.:m}
+	}	
   \relative c'
   {
     \time 4/4 \key b \minor

@@ -4,6 +4,11 @@
 {
   
 <<    
+\chords {
+	\frenchChords
+	\repeat volta 2 {g2 s s d g s d g}
+	\repeat volta 2 {g s s a:m g s d g}
+}
   \relative c'
   {
     \time 2/4 \key g \major
