@@ -1,0 +1,3 @@
+Shiver Me Timbers is a music band playing Irish traditionals, sea shanties, pub songs, ...
+
+The songbook is written using LaTeX, the Song package, and Lilypond.
